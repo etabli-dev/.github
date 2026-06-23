@@ -1,0 +1,14 @@
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+  <!-- Etabli Suite mark — shared green tile with a workbench (établi) glyph. -->
+  <rect width="1024" height="1024" fill="#28A745"/>
+  <g fill="none" stroke="#FFFFFF" stroke-width="36"
+     stroke-linecap="round" stroke-linejoin="round">
+    <!-- Workbench top surface -->
+    <line x1="240" y1="588" x2="784" y2="588"/>
+    <!-- Two legs -->
+    <line x1="304" y1="588" x2="304" y2="784"/>
+    <line x1="720" y1="588" x2="720" y2="784"/>
+    <!-- A workpiece (a small framed panel) sitting on top -->
+    <rect x="416" y="404" width="192" height="160" rx="8"/>
+  </g>
+</svg>
