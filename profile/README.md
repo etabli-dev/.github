@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="profile/icons/etabli-suite.svg" alt="Etabli" width="112">
+  <img src="https://raw.githubusercontent.com/etabli-dev/.github/main/profile/icons/etabli-suite.svg" alt="Etabli" width="112">
 </p>
 
 <h1 align="center">Etabli Suite</h1>
@@ -19,8 +19,8 @@ Keine Cloud, keine Telemetrie, keine Konten.
 
 |  | App | Zweck | Plattformen | Repo |
 |--|-----|-------|-------------|------|
-| <img src="profile/icons/icon-atelier.svg" width="28" alt=""> | **Atelier** | Offline-IDE für R (WebR) und Python (Pyodide) mit gemeinsamem virtuellem Dateisystem; `numpy`, `pandas`, `scipy`, `matplotlib`, `scikit-learn` vorgebündelt. | iOS · Android · macOS · Linux · Windows | [`etabli-dev/etabli-atelier`](https://github.com/etabli-dev/etabli-atelier) |
-| <img src="profile/icons/icon-vitrine.svg" width="28" alt=""> | **Vitrine** | Offline-Runner für Shiny-Apps (shinylive + WebR). Statistische Power-Analyse wird als Shiny-App in Vitrine ausgeliefert, nicht mehr als eigenständige App. | iOS · Android · macOS · Linux · Windows | [`etabli-dev/etabli-vitrine`](https://github.com/etabli-dev/etabli-vitrine) |
+| <img src="https://raw.githubusercontent.com/etabli-dev/.github/main/profile/icons/icon-atelier.svg" width="28" alt=""> | **Atelier** | Offline-IDE für R (WebR) und Python (Pyodide) mit gemeinsamem virtuellem Dateisystem; `numpy`, `pandas`, `scipy`, `matplotlib`, `scikit-learn` vorgebündelt. | iOS · Android · macOS · Linux · Windows | [`etabli-dev/etabli-atelier`](https://github.com/etabli-dev/etabli-atelier) |
+| <img src="https://raw.githubusercontent.com/etabli-dev/.github/main/profile/icons/icon-vitrine.svg" width="28" alt=""> | **Vitrine** | Offline-Runner für Shiny-Apps (shinylive + WebR). Statistische Power-Analyse wird als Shiny-App in Vitrine ausgeliefert, nicht mehr als eigenständige App. | iOS · Android · macOS · Linux · Windows | [`etabli-dev/etabli-vitrine`](https://github.com/etabli-dev/etabli-vitrine) |
 
 ## Self-hosted-Clients
 
@@ -28,10 +28,10 @@ Schlanke, minimale Clients, die ausschließlich mit der eigenen Instanz sprechen
 
 |  | App | Backend | Plattformen | Repo |
 |--|-----|---------|-------------|------|
-| <img src="profile/icons/icon-doc.svg" width="28" alt=""> | **Doc** | Paperless-ngx | iOS · Android | [`etabli-dev/etabli-doc`](https://github.com/etabli-dev/etabli-doc) |
-| <img src="profile/icons/icon-table.svg" width="28" alt=""> | **Table** | SeaTable | iOS · Android | [`etabli-dev/etabli-table`](https://github.com/etabli-dev/etabli-table) |
-| <img src="profile/icons/icon-projet.svg" width="28" alt=""> | **Projet** | OpenProject | iOS · Android | [`etabli-dev/etabli-projet`](https://github.com/etabli-dev/etabli-projet) |
-| <img src="profile/icons/icon-nuage.svg" width="28" alt=""> | **Nuage** *(in Entwicklung)* | Nextcloud — Dateien und Link-Prüfer round-trippen heute; Kontakte (CardDAV) und Kalender (CalDAV) folgen. | iOS · Android | [`etabli-dev/etabli-nuage`](https://github.com/etabli-dev/etabli-nuage) |
+| <img src="https://raw.githubusercontent.com/etabli-dev/.github/main/profile/icons/icon-doc.svg" width="28" alt=""> | **Doc** | Paperless-ngx | iOS · Android | [`etabli-dev/etabli-doc`](https://github.com/etabli-dev/etabli-doc) |
+| <img src="https://raw.githubusercontent.com/etabli-dev/.github/main/profile/icons/icon-table.svg" width="28" alt=""> | **Table** | SeaTable | iOS · Android | [`etabli-dev/etabli-table`](https://github.com/etabli-dev/etabli-table) |
+| <img src="https://raw.githubusercontent.com/etabli-dev/.github/main/profile/icons/icon-projet.svg" width="28" alt=""> | **Projet** | OpenProject | iOS · Android | [`etabli-dev/etabli-projet`](https://github.com/etabli-dev/etabli-projet) |
+| <img src="https://raw.githubusercontent.com/etabli-dev/.github/main/profile/icons/icon-nuage.svg" width="28" alt=""> | **Nuage** *(in Entwicklung)* | Nextcloud — Dateien und Link-Prüfer round-trippen heute; Kontakte (CardDAV) und Kalender (CalDAV) folgen. | iOS · Android | [`etabli-dev/etabli-nuage`](https://github.com/etabli-dev/etabli-nuage) |
 
 ## Offline-Werkzeuge
 
@@ -39,8 +39,8 @@ Klein, fokussiert, vollständig offline.
 
 |  | App | Zweck | Plattformen | Repo |
 |--|-----|-------|-------------|------|
-| <img src="profile/icons/icon-focus.svg" width="28" alt=""> | **Focus** | Pomodoro-Tracker für Fokus-Sessions, mit Kategorien und Verlauf. | iOS · Android | [`etabli-dev/etabli-focus`](https://github.com/etabli-dev/etabli-focus) |
-| <img src="profile/icons/icon-plume.svg" width="28" alt=""> | **Plume** | Referenz und Snippet-Picker für Typesetting-Befehle: Befehle, griechische Buchstaben, Mathe-Operatoren, Formatierung, Umgebungen, Bibliographie. | iOS · Android | [`etabli-dev/etabli-plume`](https://github.com/etabli-dev/etabli-plume) |
+| <img src="https://raw.githubusercontent.com/etabli-dev/.github/main/profile/icons/icon-focus.svg" width="28" alt=""> | **Focus** | Pomodoro-Tracker für Fokus-Sessions, mit Kategorien und Verlauf. | iOS · Android | [`etabli-dev/etabli-focus`](https://github.com/etabli-dev/etabli-focus) |
+| <img src="https://raw.githubusercontent.com/etabli-dev/.github/main/profile/icons/icon-plume.svg" width="28" alt=""> | **Plume** | Referenz und Snippet-Picker für Typesetting-Befehle: Befehle, griechische Buchstaben, Mathe-Operatoren, Formatierung, Umgebungen, Bibliographie. | iOS · Android | [`etabli-dev/etabli-plume`](https://github.com/etabli-dev/etabli-plume) |
 
 > Plume ist die bewusste Umbenennung des früheren *EtabliTeX*. Nicht mit
 > TeX oder dem LaTeX Project affiliiert.
