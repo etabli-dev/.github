@@ -6,7 +6,7 @@
 
 <p align="center">
   Privacy-first, offline-capable mobile and desktop apps for research, knowledge
-  work and self-hosted workflows — plus a pair of abstract strategy games.<br>
+  work and self-hosted workflows.<br>
   Apache-2.0 · by R. Heller.
 </p>
 
@@ -66,8 +66,6 @@ Small, focused, fully offline.
 | [<img src="https://raw.githubusercontent.com/etabli-dev/.github/main/profile/icons/icon-focus.svg" width="28" height="28" alt="Focus">](https://github.com/etabli-dev/etabli-focus) | [**Focus**](https://github.com/etabli-dev/etabli-focus) | Pomodoro / focus-session tracker with per-weekday targets, categories and stats. | iOS · Android | [v0.1.0 APK](https://github.com/etabli-dev/etabli-focus/releases/tag/v0.1.0) |
 | [<img src="https://raw.githubusercontent.com/etabli-dev/.github/main/profile/icons/icon-plume.svg" width="28" height="28" alt="Plume">](https://github.com/etabli-dev/etabli-plume) | [**Plume**](https://github.com/etabli-dev/etabli-plume) | Reference and snippet-picker for typesetting commands: commands, Greek letters, math operators, formatting, environments, bibliography. | iOS · Android | [v0.1.0 APK](https://github.com/etabli-dev/etabli-plume/releases/tag/v0.1.0) |
 
-> Plume is the deliberate rename of the former *EtabliTeX*. Not affiliated with
-> TeX or the LaTeX Project.
 
 ---
 
