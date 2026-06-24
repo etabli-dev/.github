@@ -1,0 +1,11 @@
+<svg width="28" height="28" viewBox="0 0 28 28" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="branchxo">
+  <rect x="1" y="1" width="26" height="26" rx="6" fill="#28A745"/>
+  <g fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round">
+    <path d="M14 21 V15 M14 15 L9 9 M14 15 L19 9"/>
+  </g>
+  <g fill="#fff">
+    <circle cx="14" cy="21.5" r="2"/>
+    <circle cx="9" cy="8" r="2.2"/>
+    <circle cx="19" cy="8" r="2.2"/>
+  </g>
+</svg>
