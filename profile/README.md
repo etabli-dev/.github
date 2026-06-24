@@ -24,47 +24,24 @@
 
 ---
 
-## Flagship runtimes
+## Apps
 
-Real scientific runtimes — R and Python — on the device. No cloud, no telemetry,
-no accounts.
+| | App | Kind | What it does | Platforms (target) | Android dev build |
+|--|-----|------|--------------|--------------------|-------------------|
+| [<img src="https://raw.githubusercontent.com/etabli-dev/.github/main/profile/icons/icon-atelier.svg" width="28" height="28" alt="Atelier">](https://github.com/etabli-dev/etabli-atelier) | [**Atelier**](https://github.com/etabli-dev/etabli-atelier) | IDE | Offline IDE for R (WebR) and Python (Pyodide) with a shared virtual filesystem; `numpy`, `pandas`, `scipy`, `matplotlib`, `scikit-learn` pre-bundled. | iOS · Android · macOS · Linux · Windows | [v0.1.0 APK](https://github.com/etabli-dev/etabli-atelier/releases/tag/v0.1.0) |
+| [<img src="https://raw.githubusercontent.com/etabli-dev/.github/main/profile/icons/icon-vitrine.svg" width="28" height="28" alt="Vitrine">](https://github.com/etabli-dev/etabli-vitrine) | [**Vitrine**](https://github.com/etabli-dev/etabli-vitrine) | Runtime | Run Shiny apps offline (shinylive + WebR) — import a bundle and it stages and runs locally. | iOS · Android · macOS · Linux · Windows | [v0.1.0 APK](https://github.com/etabli-dev/etabli-vitrine/releases/tag/v0.1.0) |
+| [<img src="https://raw.githubusercontent.com/etabli-dev/.github/main/profile/icons/icon-lattttice.svg" width="28" height="28" alt="lattttice">](https://github.com/etabli-dev/etabli-lattttice) | [**lattttice**](https://github.com/etabli-dev/etabli-lattttice) | Game | Four-dimensional tic-tac-toe on a 4×4×4×4 board — grid of grids, slices, a 3D Schlegel projection, a strength heat-map, and win probability. | Android | [v0.1.0 APK](https://github.com/etabli-dev/etabli-lattttice/releases/tag/v0.1.0) |
+| [<img src="https://raw.githubusercontent.com/etabli-dev/.github/main/profile/icons/icon-branchxo.svg" width="28" height="28" alt="branchxo">](https://github.com/etabli-dev/etabli-branchxo) | [**branchxo**](https://github.com/etabli-dev/etabli-branchxo) | Game | Multiverse tic-tac-toe: scrub the move timeline, **fork alternate universes**, and track win probability across every branch. | Android | [v0.1.0 APK](https://github.com/etabli-dev/etabli-branchxo/releases/tag/v0.1.0) |
+| [<img src="https://raw.githubusercontent.com/etabli-dev/.github/main/profile/icons/icon-doc.svg" width="28" height="28" alt="Doc">](https://github.com/etabli-dev/etabli-doc) | [**Doc**](https://github.com/etabli-dev/etabli-doc) | Client | Client for your own self-hosted **Paperless-ngx** instance. | iOS · Android | [v0.1.0 APK](https://github.com/etabli-dev/etabli-doc/releases/tag/v0.1.0) |
+| [<img src="https://raw.githubusercontent.com/etabli-dev/.github/main/profile/icons/icon-table.svg" width="28" height="28" alt="Table">](https://github.com/etabli-dev/etabli-table) | [**Table**](https://github.com/etabli-dev/etabli-table) | Client | Client for your own self-hosted **SeaTable** instance. | iOS · Android | [v0.1.0 APK](https://github.com/etabli-dev/etabli-table/releases/tag/v0.1.0) |
+| [<img src="https://raw.githubusercontent.com/etabli-dev/.github/main/profile/icons/icon-projet.svg" width="28" height="28" alt="Projet">](https://github.com/etabli-dev/etabli-projet) | [**Projet**](https://github.com/etabli-dev/etabli-projet) | Client | Client for your own self-hosted **OpenProject** instance. | iOS · Android | [v0.1.0 APK](https://github.com/etabli-dev/etabli-projet/releases/tag/v0.1.0) |
+| [<img src="https://raw.githubusercontent.com/etabli-dev/.github/main/profile/icons/icon-nuage.svg" width="28" height="28" alt="Nuage">](https://github.com/etabli-dev/etabli-nuage) | [**Nuage**](https://github.com/etabli-dev/etabli-nuage) | Client | Client for your own self-hosted **Nextcloud** *(in development)* — files and link checker today; Contacts (CardDAV) and Calendar (CalDAV) to follow. | iOS · Android | [v0.1.0 APK](https://github.com/etabli-dev/etabli-nuage/releases/tag/v0.1.0) |
+| [<img src="https://raw.githubusercontent.com/etabli-dev/.github/main/profile/icons/icon-focus.svg" width="28" height="28" alt="Focus">](https://github.com/etabli-dev/etabli-focus) | [**Focus**](https://github.com/etabli-dev/etabli-focus) | Tool | Pomodoro / focus-session tracker with per-weekday targets, categories and stats. | iOS · Android | [v0.1.0 APK](https://github.com/etabli-dev/etabli-focus/releases/tag/v0.1.0) |
+| [<img src="https://raw.githubusercontent.com/etabli-dev/.github/main/profile/icons/icon-plume.svg" width="28" height="28" alt="Plume">](https://github.com/etabli-dev/etabli-plume) | [**Plume**](https://github.com/etabli-dev/etabli-plume) | Tool | Reference and snippet-picker for typesetting commands: Greek letters, math operators, formatting, environments, bibliography. | iOS · Android | [v0.1.0 APK](https://github.com/etabli-dev/etabli-plume/releases/tag/v0.1.0) |
 
-|  | App | What it does | Platforms (target) | Android dev build |
-|--|-----|--------------|--------------------|-------------------|
-| [<img src="https://raw.githubusercontent.com/etabli-dev/.github/main/profile/icons/icon-atelier.svg" width="28" height="28" alt="Atelier">](https://github.com/etabli-dev/etabli-atelier) | [**Atelier**](https://github.com/etabli-dev/etabli-atelier) | Offline IDE for R (WebR) and Python (Pyodide) with a shared virtual filesystem; `numpy`, `pandas`, `scipy`, `matplotlib`, `scikit-learn` pre-bundled. | iOS · Android · macOS · Linux · Windows | [v0.1.0 APK](https://github.com/etabli-dev/etabli-atelier/releases/tag/v0.1.0) |
-| [<img src="https://raw.githubusercontent.com/etabli-dev/.github/main/profile/icons/icon-vitrine.svg" width="28" height="28" alt="Vitrine">](https://github.com/etabli-dev/etabli-vitrine) | [**Vitrine**](https://github.com/etabli-dev/etabli-vitrine) | Run Shiny apps offline (shinylive + WebR) — import a bundle and it stages and runs locally. | iOS · Android · macOS · Linux · Windows | [v0.1.0 APK](https://github.com/etabli-dev/etabli-vitrine/releases/tag/v0.1.0) |
-
-## Strategy games
-
-Abstract strategy made tactile — tic-tac-toe pushed past its limits. Fully
-offline, with live analysis and an AI opponent.
-
-|  | App | Idea | Platforms (target) | Android dev build |
-|--|-----|------|--------------------|-------------------|
-| [<img src="https://raw.githubusercontent.com/etabli-dev/.github/main/profile/icons/icon-lattttice.svg" width="28" height="28" alt="lattttice">](https://github.com/etabli-dev/etabli-lattttice) | [**lattttice**](https://github.com/etabli-dev/etabli-lattttice) | Four-dimensional tic-tac-toe on a 4×4×4×4 board (256 cells, four in a row). Four ways to see one position — grid of grids, slices, a 3D Schlegel projection, and a strength heat-map — plus win probability. | Android | [v0.1.0 APK](https://github.com/etabli-dev/etabli-lattttice/releases/tag/v0.1.0) |
-| [<img src="https://raw.githubusercontent.com/etabli-dev/.github/main/profile/icons/icon-branchxo.svg" width="28" height="28" alt="branchxo">](https://github.com/etabli-dev/etabli-branchxo) | [**branchxo**](https://github.com/etabli-dev/etabli-branchxo) | Multiverse tic-tac-toe: a 3×3 game where you scrub the move timeline, **fork alternate universes**, and track win probability across every branch. | Android | [v0.1.0 APK](https://github.com/etabli-dev/etabli-branchxo/releases/tag/v0.1.0) |
-
-## Self-hosted clients
-
-Lean, minimal clients that talk only to your own instance — never to a third
-party. *(Data screens need your own backend; set the server + credentials in
-Settings.)*
-
-|  | App | Backend | Platforms (target) | Android dev build |
-|--|-----|---------|--------------------|-------------------|
-| [<img src="https://raw.githubusercontent.com/etabli-dev/.github/main/profile/icons/icon-doc.svg" width="28" height="28" alt="Doc">](https://github.com/etabli-dev/etabli-doc) | [**Doc**](https://github.com/etabli-dev/etabli-doc) | Paperless-ngx | iOS · Android | [v0.1.0 APK](https://github.com/etabli-dev/etabli-doc/releases/tag/v0.1.0) |
-| [<img src="https://raw.githubusercontent.com/etabli-dev/.github/main/profile/icons/icon-table.svg" width="28" height="28" alt="Table">](https://github.com/etabli-dev/etabli-table) | [**Table**](https://github.com/etabli-dev/etabli-table) | SeaTable | iOS · Android | [v0.1.0 APK](https://github.com/etabli-dev/etabli-table/releases/tag/v0.1.0) |
-| [<img src="https://raw.githubusercontent.com/etabli-dev/.github/main/profile/icons/icon-projet.svg" width="28" height="28" alt="Projet">](https://github.com/etabli-dev/etabli-projet) | [**Projet**](https://github.com/etabli-dev/etabli-projet) | OpenProject | iOS · Android | [v0.1.0 APK](https://github.com/etabli-dev/etabli-projet/releases/tag/v0.1.0) |
-| [<img src="https://raw.githubusercontent.com/etabli-dev/.github/main/profile/icons/icon-nuage.svg" width="28" height="28" alt="Nuage">](https://github.com/etabli-dev/etabli-nuage) | [**Nuage**](https://github.com/etabli-dev/etabli-nuage) *(in development)* | Nextcloud — files and the link checker round-trip today; Contacts (CardDAV) and Calendar (CalDAV) to follow. | iOS · Android | [v0.1.0 APK](https://github.com/etabli-dev/etabli-nuage/releases/tag/v0.1.0) |
-
-## Offline tools
-
-Small, focused, fully offline.
-
-|  | App | What it does | Platforms (target) | Android dev build |
-|--|-----|--------------|--------------------|-------------------|
-| [<img src="https://raw.githubusercontent.com/etabli-dev/.github/main/profile/icons/icon-focus.svg" width="28" height="28" alt="Focus">](https://github.com/etabli-dev/etabli-focus) | [**Focus**](https://github.com/etabli-dev/etabli-focus) | Pomodoro / focus-session tracker with per-weekday targets, categories and stats. | iOS · Android | [v0.1.0 APK](https://github.com/etabli-dev/etabli-focus/releases/tag/v0.1.0) |
-| [<img src="https://raw.githubusercontent.com/etabli-dev/.github/main/profile/icons/icon-plume.svg" width="28" height="28" alt="Plume">](https://github.com/etabli-dev/etabli-plume) | [**Plume**](https://github.com/etabli-dev/etabli-plume) | Reference and snippet-picker for typesetting commands: commands, Greek letters, math operators, formatting, environments, bibliography. | iOS · Android | [v0.1.0 APK](https://github.com/etabli-dev/etabli-plume/releases/tag/v0.1.0) |
+**Kinds:** **IDE** — code editor + runtimes · **Runtime** — runs apps on-device ·
+**Game** — abstract strategy · **Client** — talks only to your own self-hosted
+server · **Tool** — small, focused, fully offline utility.
 
 
 ---
