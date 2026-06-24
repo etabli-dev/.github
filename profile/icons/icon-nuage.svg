@@ -1,5 +1,6 @@
-<svg width="1024" height="1024" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024" role="img" aria-label="nuage">
   <rect width="1024" height="1024" fill="#28A745"/>
+  <g transform="translate(-101.92,-147.49) scale(1.2658)">
   <g id="glyph" fill="none" stroke="#FFFFFF" stroke-width="36"
      stroke-linecap="round" stroke-linejoin="round">
     <!-- Cloud outline -->
@@ -17,4 +18,5 @@
     <!-- Down arrow -->
     <path d="M 580 740 L 580 660 M 580 740 L 556 716 M 580 740 L 604 716"/>
   </g>
+</g>
 </svg>

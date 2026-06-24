@@ -1,5 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024" role="img" aria-label="lattttice — 4D tic-tac-toe">
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024" role="img" aria-label="lattttice">
   <rect width="1024" height="1024" fill="#28A745"/>
+  <g transform="translate(-226.46,-226.46) scale(1.4423)">
   <g fill="none" stroke="#FFFFFF" stroke-width="40" stroke-linecap="round" stroke-linejoin="round">
     <!-- Tesserakt: äußerer Würfel -->
     <rect x="324" y="324" width="280" height="280"/>
@@ -11,4 +12,5 @@
     <line x1="324" y1="604" x2="420" y2="700"/>
     <line x1="604" y1="604" x2="700" y2="700"/>
   </g>
+</g>
 </svg>

@@ -1,5 +1,6 @@
-<svg width="1024" height="1024" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024" role="img" aria-label="table">
   <rect width="1024" height="1024" fill="#28A745"/>
+  <g transform="translate(-102.40,-102.40) scale(1.2000)">
   <g id="glyph" fill="none" stroke="#FFFFFF" stroke-width="36"
      stroke-linecap="round" stroke-linejoin="round">
     <!-- 3x3 grid -->
@@ -9,4 +10,5 @@
     <line x1="280" y1="435" x2="744" y2="435"/>
     <line x1="280" y1="590" x2="744" y2="590"/>
   </g>
+</g>
 </svg>

@@ -1,5 +1,6 @@
-<svg width="1024" height="1024" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024" role="img" aria-label="plume">
   <rect width="1024" height="1024" fill="#28A745"/>
+  <g transform="translate(-81.64,-76.34) scale(1.0601)">
   <g id="glyph" fill="none" stroke="#FFFFFF" stroke-width="36"
      stroke-linecap="round" stroke-linejoin="round">
     <!-- Quill nib pointing down-left -->
@@ -13,4 +14,5 @@
     <!-- Bottom point/tail -->
     <line x1="540" y1="760" x2="500" y2="820"/>
   </g>
+</g>
 </svg>

@@ -1,5 +1,6 @@
-<svg width="1024" height="1024" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024" role="img" aria-label="focus">
   <rect width="1024" height="1024" fill="#28A745"/>
+  <g transform="translate(-97.52,-128.48) scale(1.1905)">
   <g id="glyph" fill="none" stroke="#FFFFFF" stroke-width="36"
      stroke-linecap="round" stroke-linejoin="round">
     <!-- Timer/tomato circle -->
@@ -11,4 +12,5 @@
     <!-- Hand pointing to 1-o'clock (slight tilt) -->
     <line x1="512" y1="556" x2="600" y2="498"/>
   </g>
+</g>
 </svg>

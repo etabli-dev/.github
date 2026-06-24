@@ -1,7 +1,6 @@
-<svg width="1024" height="1024" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
-  <!-- Etabli Vitrine app icon — shared green tile with vitrine glyph. -->
-  <!-- Glyph (per _style/icons/ICON_SPEC.md): play triangle inside a window frame. -->
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024" role="img" aria-label="vitrine">
   <rect width="1024" height="1024" fill="#28A745"/>
+  <g transform="translate(-56.89,-56.89) scale(1.1111)">
   <g id="glyph" fill="none" stroke="#FFFFFF" stroke-width="36"
      stroke-linecap="round" stroke-linejoin="round">
     <!-- Window frame -->
@@ -15,4 +14,5 @@
     <!-- Play triangle centered in content area -->
     <path d="M 460 460 L 460 660 L 632 560 Z" fill="#FFFFFF" stroke="none"/>
   </g>
+</g>
 </svg>
