@@ -1,120 +1,44 @@
-<p align="center">
-  <img src="https://raw.githubusercontent.com/etabli-dev/.github/main/profile/icons/etabli-suite.svg" alt="Établi" width="112">
-</p>
-
+<p align="center"><img src="https://raw.githubusercontent.com/etabli-dev/.github/main/profile/icons/etabli-suite.svg" alt="Établi" width="112"></p>
 <h1 align="center">Établi Suite</h1>
+<p align="center">Tools for research, local knowledge work, games and self-hosted services.<br>By R. Heller.</p>
 
-<p align="center">
-  Privacy-first, offline-capable mobile and desktop apps for research, knowledge
-  work and self-hosted workflows.<br>
-  Apache-2.0 · by R. Heller.
-</p>
+Établi is under active development. Each repository documents its implemented features, first-use commands and verification limits. Existing GitHub prereleases are development snapshots; new source changes are not automatically included in those downloads. Store publication and device acceptance are separate release steps.
 
-<p align="center">
-  <strong>Status: in active development.</strong> There are no App Store, Google
-  Play or F-Droid releases yet. Right now every app is distributed <strong>only as
-  an Android development build (signed APK) on GitHub Releases</strong> — currently
-  <strong>v0.1.0 prereleases</strong>. iOS and desktop builds are planned.
-</p>
+## Projects
 
-> **Tip:** every app's icon and name below links straight to its repository — use
-> this page as the suite's landing page. The **v0.1.0 APK** column links to the
-> release; download the `*-0.1.0.apk` asset and install it on Android (enable
-> "install unknown apps"). These are debug-signed development builds.
+| Project | Current purpose | Implementation and distribution |
+|---|---|---|
+| [Atelier](https://github.com/etabli-dev/etabli-atelier) | Local R/WebR and Python/Pyodide workspace with bundled scientific packages and plots. | Flutter; Android development APKs. iOS/desktop runners need platform checks. |
+| [Vitrine](https://github.com/etabli-dev/etabli-vitrine) | Import and run R Shiny source or shinylive bundles, including offline examples. | Flutter; Android development APKs. iOS/desktop runners need platform checks. |
+| [Courrier](https://github.com/etabli-dev/etabli-courrier) | Local mail, calendar, contacts, tasks, reminders, notes and feeds; incoming IMAP and Nextcloud synchronization. | Flutter; production and demo paths are distinct. Provider/device validation remains necessary. |
+| [Recueil](https://github.com/etabli-dev/etabli-recueil) | Local research-library ingestion, storage, verification and reading workflows. | TypeScript CLI, server and web application; see its setup and integration gates. |
+| [Doc](https://github.com/etabli-dev/etabli-doc) | Browse/search Paperless-ngx documents; iOS also downloads previews. | Native Android and iOS clients; own HTTPS server and token required. |
+| [Table](https://github.com/etabli-dev/etabli-table) | Browse tables and rows in a configured SeaTable base. | Native Android and iOS clients; viewing UI with bounded result windows. |
+| [Projet](https://github.com/etabli-dev/etabli-projet) | Browse OpenProject projects/work packages; iOS includes subject editing. | Native Android and iOS clients; own HTTPS server and token required. |
+| [Nuage](https://github.com/etabli-dev/etabli-nuage) | Check URLs from CSV files and retain/export results; optional WebDAV CSV/log exchange. | Native Android and iOS. General file management, contacts and calendar are future work. |
+| [Focus](https://github.com/etabli-dev/etabli-focus) | Category-based focus timers, weekly targets and local session statistics. | Native Android and iOS; notification and upgrade behavior needs device acceptance. |
+| [Plume](https://github.com/etabli-dev/etabli-plume) | Search, copy and favourite bundled LaTeX commands and snippets. | Native Android and iOS; local dictionary and preferences. |
+| [BranchXO](https://github.com/etabli-dev/etabli-branchxo) | Tic-tac-toe with replay, alternate branches, AI and probability views. | React Native/Expo; Android and browser checks, iOS source. |
+| [Lattttice](https://github.com/etabli-dev/etabli-lattttice) | Four-dimensional tic-tac-toe on a 4×4×4×4 board. | React Native/Expo; Android and browser checks, iOS source. |
 
----
+## Privacy and offline use
 
-## Apps
+The suite has no shared hosted account or analytics service. Server clients require credentials for the services you configure. Their secure-storage implementation, cached data, backup behavior and network scope are documented per repository.
 
-| | App | Kind | What it does | Platforms (target) | Android dev build |
-|--|-----|------|--------------|--------------------|-------------------|
-| [<img src="https://raw.githubusercontent.com/etabli-dev/.github/main/profile/icons/icon-atelier.svg" width="28" height="28" alt="Atelier">](https://github.com/etabli-dev/etabli-atelier) | [**Atelier**](https://github.com/etabli-dev/etabli-atelier) | IDE | Offline IDE for R (WebR) and Python (Pyodide) with a shared virtual filesystem; `numpy`, `pandas`, `scipy`, `matplotlib`, `scikit-learn` pre-bundled. | iOS · Android · macOS · Linux · Windows | [v0.1.0 APK](https://github.com/etabli-dev/etabli-atelier/releases/tag/v0.1.0) |
-| [<img src="https://raw.githubusercontent.com/etabli-dev/.github/main/profile/icons/icon-vitrine.svg" width="28" height="28" alt="Vitrine">](https://github.com/etabli-dev/etabli-vitrine) | [**Vitrine**](https://github.com/etabli-dev/etabli-vitrine) | Runtime | Run Shiny apps offline (shinylive + WebR) — import a bundle and it stages and runs locally. | iOS · Android · macOS · Linux · Windows | [v0.1.0 APK](https://github.com/etabli-dev/etabli-vitrine/releases/tag/v0.1.0) |
-| [<img src="https://raw.githubusercontent.com/etabli-dev/.github/main/profile/icons/icon-lattttice.svg" width="28" height="28" alt="lattttice">](https://github.com/etabli-dev/etabli-lattttice) | [**lattttice**](https://github.com/etabli-dev/etabli-lattttice) | Game | Four-dimensional tic-tac-toe on a 4×4×4×4 board — grid of grids, slices, a 3D Schlegel projection, a strength heat-map, and win probability. | Android | [v0.1.0 APK](https://github.com/etabli-dev/etabli-lattttice/releases/tag/v0.1.0) |
-| [<img src="https://raw.githubusercontent.com/etabli-dev/.github/main/profile/icons/icon-branchxo.svg" width="28" height="28" alt="branchxo">](https://github.com/etabli-dev/etabli-branchxo) | [**branchxo**](https://github.com/etabli-dev/etabli-branchxo) | Game | Multiverse tic-tac-toe: scrub the move timeline, **fork alternate universes**, and track win probability across every branch. | Android | [v0.1.0 APK](https://github.com/etabli-dev/etabli-branchxo/releases/tag/v0.1.0) |
-| [<img src="https://raw.githubusercontent.com/etabli-dev/.github/main/profile/icons/icon-doc.svg" width="28" height="28" alt="Doc">](https://github.com/etabli-dev/etabli-doc) | [**Doc**](https://github.com/etabli-dev/etabli-doc) | Client | Client for your own self-hosted **Paperless-ngx** instance. | iOS · Android | [v0.1.0 APK](https://github.com/etabli-dev/etabli-doc/releases/tag/v0.1.0) |
-| [<img src="https://raw.githubusercontent.com/etabli-dev/.github/main/profile/icons/icon-table.svg" width="28" height="28" alt="Table">](https://github.com/etabli-dev/etabli-table) | [**Table**](https://github.com/etabli-dev/etabli-table) | Client | Client for your own self-hosted **SeaTable** instance. | iOS · Android | [v0.1.0 APK](https://github.com/etabli-dev/etabli-table/releases/tag/v0.1.0) |
-| [<img src="https://raw.githubusercontent.com/etabli-dev/.github/main/profile/icons/icon-projet.svg" width="28" height="28" alt="Projet">](https://github.com/etabli-dev/etabli-projet) | [**Projet**](https://github.com/etabli-dev/etabli-projet) | Client | Client for your own self-hosted **OpenProject** instance. | iOS · Android | [v0.1.0 APK](https://github.com/etabli-dev/etabli-projet/releases/tag/v0.1.0) |
-| [<img src="https://raw.githubusercontent.com/etabli-dev/.github/main/profile/icons/icon-nuage.svg" width="28" height="28" alt="Nuage">](https://github.com/etabli-dev/etabli-nuage) | [**Nuage**](https://github.com/etabli-dev/etabli-nuage) | Client | Client for your own self-hosted **Nextcloud** *(in development)* — files and link checker today; Contacts (CardDAV) and Calendar (CalDAV) to follow. | iOS · Android | [v0.1.0 APK](https://github.com/etabli-dev/etabli-nuage/releases/tag/v0.1.0) |
-| [<img src="https://raw.githubusercontent.com/etabli-dev/.github/main/profile/icons/icon-focus.svg" width="28" height="28" alt="Focus">](https://github.com/etabli-dev/etabli-focus) | [**Focus**](https://github.com/etabli-dev/etabli-focus) | Tool | Pomodoro / focus-session tracker with per-weekday targets, categories and stats. | iOS · Android | [v0.1.0 APK](https://github.com/etabli-dev/etabli-focus/releases/tag/v0.1.0) |
-| [<img src="https://raw.githubusercontent.com/etabli-dev/.github/main/profile/icons/icon-plume.svg" width="28" height="28" alt="Plume">](https://github.com/etabli-dev/etabli-plume) | [**Plume**](https://github.com/etabli-dev/etabli-plume) | Tool | Reference and snippet-picker for typesetting commands: Greek letters, math operators, formatting, environments, bibliography. | iOS · Android | [v0.1.0 APK](https://github.com/etabli-dev/etabli-plume/releases/tag/v0.1.0) |
+Games and bundled examples can operate locally. Imported scripts, Shiny applications and checked web pages can request external resources; they are not a sandbox for untrusted code. Courrier retains local data and refreshes configured services explicitly. Recueil's optional integrations require their own services. Offline capability differs by workflow.
 
-**Kinds:** **IDE** — code editor + runtimes · **Runtime** — runs apps on-device ·
-**Game** — abstract strategy · **Client** — talks only to your own self-hosted
-server · **Tool** — small, focused, fully offline utility.
+## Development and releases
 
+Android development downloads, where available, are on each repository's Releases page. They are not store-approved production releases. App Store, Google Play and F-Droid publication are not established by this profile. Follow each project's README for the current source build and its audit/refinement record for observed checks and remaining gates.
 
----
+The apps share the Coder visual vocabulary: a green accent, restrained borders and monospaced code/value displays. Platform behavior and accessibility should be evaluated in each app; a shared design does not imply identical functionality.
 
-## Cross-cutting
+## Documentation and support
 
-### Coder design system
-A single accent (`#28A745`), light / dark / system, **JetBrains Mono** for code
-and values, hairline dividers instead of shadow layers. Identical across iOS,
-Android and Flutter — central tokens in
-[`design/coder-design-system.json`](https://github.com/etabli-dev/etabli-atelier/blob/main/design/coder-design-system.json)
-in each app repo.
+Start with a project's README; it links to its guides, source, tests and release records. Historical screenshots and documentation sites can describe earlier builds.
 
-### Privacy
-No analytics. No third-party SDKs. No accounts. Credentials, where needed, live
-only in the platform secure store (iOS Keychain · Android EncryptedSharedPreferences).
+[Support development on Liberapay](https://liberapay.com/rabanheller/).
 
-### Offline-first
-Scientific runtimes and games run on the device. Self-hosted clients talk only to
-the instance you point them at. No implicit network requests.
+## Licensing
 
----
-
-## Availability
-
-The suite is **in active development**. App Store, Google Play and F-Droid
-releases are **planned but not yet available**.
-
-| Channel | Status |
-|---------|--------|
-| **Android (APK)** | **Available now** — `v0.1.0` development builds on each repo's **GitHub Releases** (links above). |
-| **App Store** (iOS) | planned — not yet available |
-| **Google Play** | planned — not yet available |
-| **F-Droid** | planned — not yet available |
-
-All current builds are **debug-signed development prereleases** at version
-**0.1.0**.
-
-## Repositories
-
-All apps live under [**github.com/etabli-dev**](https://github.com/etabli-dev):
-[atelier](https://github.com/etabli-dev/etabli-atelier) ·
-[vitrine](https://github.com/etabli-dev/etabli-vitrine) ·
-[doc](https://github.com/etabli-dev/etabli-doc) ·
-[table](https://github.com/etabli-dev/etabli-table) ·
-[projet](https://github.com/etabli-dev/etabli-projet) ·
-[nuage](https://github.com/etabli-dev/etabli-nuage) ·
-[focus](https://github.com/etabli-dev/etabli-focus) ·
-[plume](https://github.com/etabli-dev/etabli-plume) ·
-[lattttice](https://github.com/etabli-dev/etabli-lattttice) ·
-[branchxo](https://github.com/etabli-dev/etabli-branchxo)
-
-## Vignettes
-
-Companion Quarto sites with tutorials, screenshots and examples:
-
-- <https://etabli-dev.github.io/etabli-atelier/>
-- <https://etabli-dev.github.io/etabli-vitrine/>
-- <https://etabli-dev.github.io/etabli-doc/>
-- <https://etabli-dev.github.io/etabli-table/>
-- <https://etabli-dev.github.io/etabli-projet/>
-- <https://etabli-dev.github.io/etabli-nuage/>
-- <https://etabli-dev.github.io/etabli-focus/>
-- <https://etabli-dev.github.io/etabli-plume/>
-- <https://etabli-dev.github.io/etabli-lattttice/> *(game)*
-- <https://etabli-dev.github.io/etabli-branchxo/> *(game)*
-
-## Support
-
-- [**Liberapay** (`rabanheller`)](https://liberapay.com/rabanheller/) — recurring support via the FOSS surface.
-
----
-
-## License
-
-Apache-2.0 · © 2026 R. Heller.
+Consult each repository's LICENSE and NOTICE. Application code and bundled runtimes can have different licenses; Atelier and Vitrine document their WebR/GPL and other runtime components in THIRD_PARTY.md. © 2026 R. Heller.
