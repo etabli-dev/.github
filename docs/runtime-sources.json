@@ -1,0 +1,2471 @@
+{
+  "schema_version": 1,
+  "checked_at_utc": "2026-11-02T16:56:44.274593+00:00",
+  "status": "bounded source inventory; corresponding-source delivery and reproducible rebuild not complete",
+  "scope": "Atelier/Vitrine pinned offline runtime baseline captured before Atelier package-payload filter re-preparation. No runtime/native builds or device actions in this inventory.",
+  "baselines": [
+    {
+      "application": "etabli-atelier",
+      "application_head_at_inventory": "d433de96351e0d556aeb9d307fec1f14137f2fc3",
+      "runtime_lock_sha256": "0473b154ccf3d3aab05d2312dc2b04205fa6cc78790aac657583ddd95738023d",
+      "prepared_receipt_sha256": "46239eb2af45a3da21ed9142dd85cc9dbb0861f6a04dc66d9918399921496f9d",
+      "prepared_file_count": 513,
+      "prepared_hash_matches": 513,
+      "binary_inputs": [
+        {
+          "name": "webr-0.6.0.zip",
+          "url": "https://github.com/r-wasm/webr/releases/download/v0.6.0/webr-0.6.0.zip",
+          "expected_sha256": "d476e1d6e23cd6572450e2cf3b5faf93d8bd0c0284f4f8bb7b7f8aa4cd01aaf1",
+          "actual_sha256": "d476e1d6e23cd6572450e2cf3b5faf93d8bd0c0284f4f8bb7b7f8aa4cd01aaf1"
+        },
+        {
+          "name": "shinylive-0.10.12.tar.gz",
+          "url": "https://github.com/posit-dev/shinylive/releases/download/v0.10.12/shinylive-0.10.12.tar.gz",
+          "expected_sha256": "5be0daf553f378d59382b74e360e17d2d566c8b547c61bafb8c15936395cd5f4",
+          "actual_sha256": "5be0daf553f378d59382b74e360e17d2d566c8b547c61bafb8c15936395cd5f4"
+        },
+        {
+          "name": "webr-LICENSE.md",
+          "url": "https://raw.githubusercontent.com/r-wasm/webr/v0.6.0/LICENSE.md",
+          "expected_sha256": "0ac1bff20e1329e244669e318269e6b40f327aecc78c3f18376ac59e923dde23",
+          "actual_sha256": "0ac1bff20e1329e244669e318269e6b40f327aecc78c3f18376ac59e923dde23"
+        },
+        {
+          "name": "shinylive-LICENSE.txt",
+          "url": "https://raw.githubusercontent.com/posit-dev/shinylive/v0.10.12/LICENSE",
+          "expected_sha256": "b8e2ce166ce471c7be2aba2bd0117ba5e6923a400c4f999abccb2c28ba528b93",
+          "actual_sha256": "b8e2ce166ce471c7be2aba2bd0117ba5e6923a400c4f999abccb2c28ba528b93"
+        },
+        {
+          "name": "pyodide-LICENSE.txt",
+          "url": "https://raw.githubusercontent.com/pyodide/pyodide/0.27.7/LICENSE",
+          "expected_sha256": "1f256ecad192880510e84ad60474eab7589218784b9a50bc7ceee34c2b91f1d5",
+          "actual_sha256": "1f256ecad192880510e84ad60474eab7589218784b9a50bc7ceee34c2b91f1d5"
+        }
+      ]
+    },
+    {
+      "application": "etabli-vitrine",
+      "application_head_at_inventory": "e315194ed2c43a086763a80f3e2581d262657df0",
+      "runtime_lock_sha256": "60b8c3331a8e091029a42b8d892dc98a1db6457ba409811424f6bab6a62e6068",
+      "prepared_receipt_sha256": "bdee6078459290123f0b0d86809666b3bb3307adfbb809b0016e0dc3fe1ea84a",
+      "prepared_file_count": 2,
+      "prepared_hash_matches": 2,
+      "binary_inputs": [
+        {
+          "name": "webr-0.6.0.zip",
+          "url": "https://github.com/r-wasm/webr/releases/download/v0.6.0/webr-0.6.0.zip",
+          "expected_sha256": "d476e1d6e23cd6572450e2cf3b5faf93d8bd0c0284f4f8bb7b7f8aa4cd01aaf1",
+          "actual_sha256": "d476e1d6e23cd6572450e2cf3b5faf93d8bd0c0284f4f8bb7b7f8aa4cd01aaf1"
+        },
+        {
+          "name": "shinylive-0.10.12.tar.gz",
+          "url": "https://github.com/posit-dev/shinylive/releases/download/v0.10.12/shinylive-0.10.12.tar.gz",
+          "expected_sha256": "5be0daf553f378d59382b74e360e17d2d566c8b547c61bafb8c15936395cd5f4",
+          "actual_sha256": "5be0daf553f378d59382b74e360e17d2d566c8b547c61bafb8c15936395cd5f4"
+        },
+        {
+          "name": "webr-LICENSE.md",
+          "url": "https://raw.githubusercontent.com/r-wasm/webr/v0.6.0/LICENSE.md",
+          "expected_sha256": "0ac1bff20e1329e244669e318269e6b40f327aecc78c3f18376ac59e923dde23",
+          "actual_sha256": "0ac1bff20e1329e244669e318269e6b40f327aecc78c3f18376ac59e923dde23"
+        },
+        {
+          "name": "shinylive-LICENSE.txt",
+          "url": "https://raw.githubusercontent.com/posit-dev/shinylive/v0.10.12/LICENSE",
+          "expected_sha256": "b8e2ce166ce471c7be2aba2bd0117ba5e6923a400c4f999abccb2c28ba528b93",
+          "actual_sha256": "b8e2ce166ce471c7be2aba2bd0117ba5e6923a400c4f999abccb2c28ba528b93"
+        },
+        {
+          "name": "pyodide-LICENSE.txt",
+          "url": "https://raw.githubusercontent.com/pyodide/pyodide/0.27.7/LICENSE",
+          "expected_sha256": "1f256ecad192880510e84ad60474eab7589218784b9a50bc7ceee34c2b91f1d5",
+          "actual_sha256": "1f256ecad192880510e84ad60474eab7589218784b9a50bc7ceee34c2b91f1d5"
+        }
+      ]
+    }
+  ],
+  "upstream_sources": [
+    {
+      "component": "webr",
+      "repository": "https://github.com/r-wasm/webr",
+      "tag": "v0.6.0",
+      "commit": "f116a5e60e220182d09ac015837c88c454c663c5",
+      "source_tree_url": "https://github.com/r-wasm/webr/tree/f116a5e60e220182d09ac015837c88c454c663c5",
+      "release_url": "https://github.com/r-wasm/webr/releases/tag/v0.6.0",
+      "published_at": "2026-05-19T13:03:18Z",
+      "source_archive": {
+        "url": "https://codeload.github.com/r-wasm/webr/tar.gz/f116a5e60e220182d09ac015837c88c454c663c5",
+        "sha256": "208877f5cbe214af7d07aa3d6c7adb4107df51a8bcaec12ca1d349ec5cf3eb9d",
+        "bytes": 1074405,
+        "collected_local_file": "webr-v0.6.0-source.tar.gz",
+        "verification": "Downloaded by exact Git commit from GitHub; local digest recorded. No source rebuild or binary equivalence demonstrated."
+      }
+    },
+    {
+      "component": "shinylive",
+      "repository": "https://github.com/posit-dev/shinylive",
+      "tag": "v0.10.12",
+      "commit": "2726fe99c05ba4516cd002bef8d8f734be125133",
+      "source_tree_url": "https://github.com/posit-dev/shinylive/tree/2726fe99c05ba4516cd002bef8d8f734be125133",
+      "release_url": "https://github.com/posit-dev/shinylive/releases/tag/v0.10.12",
+      "published_at": "2026-06-01T23:11:39Z",
+      "source_archive": {
+        "url": "https://codeload.github.com/posit-dev/shinylive/tar.gz/2726fe99c05ba4516cd002bef8d8f734be125133",
+        "sha256": "a6653e259eb8fbe974e8311ce3d76b1de3661495eadbcb9d0c5ca3454f946903",
+        "bytes": 2170396,
+        "collected_local_file": "shinylive-v0.10.12-source.tar.gz",
+        "verification": "Downloaded by exact Git commit from GitHub; local digest recorded. No source rebuild or binary equivalence demonstrated."
+      }
+    },
+    {
+      "component": "pyodide",
+      "repository": "https://github.com/pyodide/pyodide",
+      "tag": "0.27.7",
+      "commit": "8250fdc3dc7bfd587fd8f4cc267e173095c58445",
+      "source_tree_url": "https://github.com/pyodide/pyodide/tree/8250fdc3dc7bfd587fd8f4cc267e173095c58445",
+      "release_url": "https://github.com/pyodide/pyodide/releases/tag/0.27.7",
+      "published_at": "2025-06-05T04:10:24Z",
+      "source_archive": {
+        "url": "https://codeload.github.com/pyodide/pyodide/tar.gz/8250fdc3dc7bfd587fd8f4cc267e173095c58445",
+        "sha256": "7147e54d4561eb65a916136b8cda10869118a1db39be401f7e01ac0f701ef679",
+        "bytes": 8053959,
+        "collected_local_file": "pyodide-0.27.7-source.tar.gz",
+        "verification": "Downloaded by exact Git commit from GitHub; local digest recorded. No source rebuild or binary equivalence demonstrated."
+      }
+    },
+    {
+      "component": "r-shiny",
+      "repository": "https://github.com/r-wasm/shiny",
+      "tag": "v1.13.0.8000",
+      "commit": "ad8cadf9618b460f8362a8d1e1bb9e3f68789f25",
+      "source_tree_url": "https://github.com/r-wasm/shiny/tree/ad8cadf9618b460f8362a8d1e1bb9e3f68789f25",
+      "release_url": "https://github.com/r-wasm/shiny/releases/tag/v1.13.0.8000",
+      "published_at": "2026-05-21T13:27:13Z",
+      "source_archive": {
+        "url": "https://codeload.github.com/r-wasm/shiny/tar.gz/ad8cadf9618b460f8362a8d1e1bb9e3f68789f25",
+        "sha256": "3c774a133312d2c46f2d3dad95e55703300f5ac28fd5bbc908aa20353a101d7a",
+        "bytes": 2886291,
+        "collected_local_file": "r-shiny-v1.13.0.8000-source.tar.gz",
+        "verification": "Downloaded by exact Git commit from GitHub; local digest recorded. No source rebuild or binary equivalence demonstrated."
+      }
+    }
+  ],
+  "runtime_language_sources": [
+    {
+      "component": "R",
+      "version": "4.6.0",
+      "url": "https://cran.r-project.org/src/base/R-4/R-4.6.0.tar.gz",
+      "expected_sha256": null,
+      "verification_basis": "version in WebR pinned R/R-VERSION and observed binary; source fetched from R project",
+      "sha256": "b8dc9b4543660c7b596b87938df532394350360976527d344228ee0ed12e45ec",
+      "bytes": 40916004,
+      "status": "downloaded, local SHA256 recorded; no independent source digest obtained",
+      "collected_local_file": "source-inputs/R-4.6.0-R-4.6.0.tar.gz"
+    },
+    {
+      "component": "CPython",
+      "version": "3.12.7",
+      "url": "https://www.python.org/ftp/python/3.12.7/Python-3.12.7.tgz",
+      "expected_sha256": "73ac8fe780227bf371add8373c3079f42a0dc62deff8d612cd15a618082ab623",
+      "verification_basis": "pinned Pyodide Makefile.envs",
+      "sha256": "73ac8fe780227bf371add8373c3079f42a0dc62deff8d612cd15a618082ab623",
+      "bytes": 27016272,
+      "status": "downloaded and checksum verified",
+      "collected_local_file": "source-inputs/CPython-3.12.7-Python-3.12.7.tgz"
+    },
+    {
+      "component": "flang-wasm",
+      "version": "25541509519240557c6c7bc695f3c9615366c219",
+      "url": "https://codeload.github.com/r-wasm/flang-wasm/tar.gz/25541509519240557c6c7bc695f3c9615366c219",
+      "expected_sha256": null,
+      "verification_basis": "exact WebR gitlink commit",
+      "sha256": "f9adeaf5bb83e9052f190defb47f9ab7093d9a642ef86beaf61674c1c1c47dc4",
+      "bytes": 5683,
+      "status": "downloaded, local SHA256 recorded; no independent source digest obtained",
+      "collected_local_file": "source-inputs/flang-wasm-25541509519240557c6c7bc695f3c9615366c219-25541509519240557c6c7bc695f3c9615366c219"
+    }
+  ],
+  "vitrine_engine_provenance": {
+    "webr_npm": {
+      "npm_url": "https://registry.npmjs.org/webr/-/webr-0.6.0.tgz",
+      "npm_integrity": "sha512-M2b8m3/ZBk7XMIR7LD97s5k/9jUla83Z0Hl4b+WnrK7XmSMpZdajCiP3XkSzHKHDUgscHKe+lVUvk3aym8q0bw==",
+      "npm_integrity_matches": true,
+      "npm_archive_sha256": "5821c8bd87484add59064fa13fa62a65f686032f3f64dacf4b0aa34c4325e959"
+    },
+    "compared_webr_files": 167,
+    "byte_identical_files": 166,
+    "only_difference": "R.js matches the exact removal of if(!hasByteServing) documented by shinylive Makefile lines 150\u2013155.",
+    "r_image_sha256": "d99bdbb98dbd2d450059b3768c2c24ccff5c2d46caf94f13ee445660fd9e5ac1",
+    "r_image_metadata_sha256": "b7864d6f390d3ee454a0127e5f6b3b01690f7c6cbca45921f868ea05fdb885ca",
+    "both_image_hashes_match_official_release_asset_digests": true,
+    "image_release_url": "https://github.com/r-wasm/shiny/releases/tag/v1.13.0.8000",
+    "image_run_url": "https://github.com/r-wasm/shiny/actions/runs/26228930683",
+    "image_run_conclusion": "success",
+    "reusable_workflow_commit": "0f8493df20b6b47d3621f16be81218926a09dad1",
+    "reusable_workflow_source_archive": {
+      "url": "https://codeload.github.com/r-wasm/actions/tar.gz/0f8493df20b6b47d3621f16be81218926a09dad1",
+      "sha256": "16954539574dca5ce1410df5f542ff95f490062b9cd22f6cc407d983021ec348"
+    },
+    "historical_run_logs_fetch": "HTTP410; saved failure receipt"
+  },
+  "vitrine_r_image_packages": [
+    {
+      "name": "R6",
+      "version": "2.6.1",
+      "license": "MIT + file LICENSE",
+      "built": "R 4.6.0; ; 2026-05-21 13:29:30 UTC; unix",
+      "repository": "RSPM",
+      "installed_description_sha256": "dcef48e60985e1a0e32d8c7e3ff95be5b139e6d822706434423f50adb74fdd8d",
+      "source_candidate": {
+        "package": "R6",
+        "version": "2.6.1",
+        "image_description_sha256": "dcef48e60985e1a0e32d8c7e3ff95be5b139e6d822706434423f50adb74fdd8d",
+        "license": "MIT + file LICENSE",
+        "status": "matching-version source downloaded; exact compiled-source identity not proven",
+        "url": "https://cran.r-project.org/src/contrib/R6_2.6.1.tar.gz",
+        "sha256": "59c6eba8b1b912eb7e104f65053235604be853425ee67c152ac4e86a1f2073b4",
+        "bytes": 64507,
+        "source_description_sha256": "de69af2c48276c45bba796554e78d045f3777e420356b84402b59bbd80c6ee1b",
+        "source_license": "MIT + file LICENSE",
+        "collected_local_file": "r-source-candidates/R6_2.6.1.tar.gz"
+      }
+    },
+    {
+      "name": "Rcpp",
+      "version": "1.1.1-1.1",
+      "license": "GPL (>= 2)",
+      "built": "R 4.6.0; wasm32-unknown-emscripten; 2026-05-21 13:29:32 UTC; unix",
+      "repository": "RSPM",
+      "installed_description_sha256": "fe1452d781ef05a8fb6b143fe856dd7b38ab7c8f4494df00587ac9f8239f81a1",
+      "source_candidate": {
+        "package": "Rcpp",
+        "version": "1.1.1-1.1",
+        "image_description_sha256": "fe1452d781ef05a8fb6b143fe856dd7b38ab7c8f4494df00587ac9f8239f81a1",
+        "license": "GPL (>= 2)",
+        "status": "matching-version source downloaded; exact compiled-source identity not proven",
+        "url": "https://cran.r-project.org/src/contrib/Archive/Rcpp/Rcpp_1.1.1-1.1.tar.gz",
+        "sha256": "32e5d5fee4080c8ca315f31b74c3eaa6367a1900e92e860e00390c9565f5fbe1",
+        "bytes": 1883279,
+        "source_description_sha256": "dffe5afb02dd397b4503589aabd6578ea3e8548d86c885c67551fbb2ede4b348",
+        "source_license": "GPL (>= 2)",
+        "collected_local_file": "r-source-candidates/Rcpp_1.1.1-1.1.tar.gz"
+      }
+    },
+    {
+      "name": "base64enc",
+      "version": "0.1-6",
+      "license": "GPL-2 | GPL-3",
+      "built": "R 4.6.0; wasm32-unknown-emscripten; 2026-05-21 13:29:46 UTC; unix",
+      "repository": "RSPM",
+      "installed_description_sha256": "5c9f9db51c35d62711bf2a64a72abc3fa79322e0340024d94b5fd0655edf9c71",
+      "source_candidate": {
+        "package": "base64enc",
+        "version": "0.1-6",
+        "image_description_sha256": "5c9f9db51c35d62711bf2a64a72abc3fa79322e0340024d94b5fd0655edf9c71",
+        "license": "GPL-2 | GPL-3",
+        "status": "matching-version source downloaded; exact compiled-source identity not proven",
+        "url": "https://cran.r-project.org/src/contrib/base64enc_0.1-6.tar.gz",
+        "sha256": "3c7e9d22f7409fa2989008fa6e980c3dd8e2693eb20676acf2470ae7addb0816",
+        "bytes": 9418,
+        "source_description_sha256": "186e224072b281e17b28366cee3f4ca6504174825bd8ae1eeb0ce325bae8f70b",
+        "source_license": "GPL-2 | GPL-3",
+        "collected_local_file": "r-source-candidates/base64enc_0.1-6.tar.gz"
+      }
+    },
+    {
+      "name": "bslib",
+      "version": "0.11.0",
+      "license": "MIT + file LICENSE",
+      "built": "R 4.6.0; ; 2026-05-21 13:29:50 UTC; unix",
+      "repository": "RSPM",
+      "installed_description_sha256": "c6d3edef30b49276f0ad96bec3ea3c03bee8fca44e78a0c359be7193cabc65be",
+      "source_candidate": {
+        "package": "bslib",
+        "version": "0.11.0",
+        "image_description_sha256": "c6d3edef30b49276f0ad96bec3ea3c03bee8fca44e78a0c359be7193cabc65be",
+        "license": "MIT + file LICENSE",
+        "status": "matching-version source downloaded; exact compiled-source identity not proven",
+        "url": "https://cran.r-project.org/src/contrib/Archive/bslib/bslib_0.11.0.tar.gz",
+        "sha256": "e4df478559cb824c39bd55eb7e5f2aa48d39742d88e5015b494602901c2330bb",
+        "bytes": 5829248,
+        "source_description_sha256": "338c81ce12431002abb7f4b1ed1fb5432af305eb9b13f32f7b8c79ff700d5fbf",
+        "source_license": "MIT + file LICENSE",
+        "collected_local_file": "r-source-candidates/bslib_0.11.0.tar.gz"
+      }
+    },
+    {
+      "name": "cachem",
+      "version": "1.1.0",
+      "license": "MIT + file LICENSE",
+      "built": "R 4.6.0; wasm32-unknown-emscripten; 2026-05-21 13:29:55 UTC; unix",
+      "repository": "RSPM",
+      "installed_description_sha256": "896c46074c5436cadf926e199a4184c4a78ab9483fc628267a4fa092c32d46b8",
+      "source_candidate": {
+        "package": "cachem",
+        "version": "1.1.0",
+        "image_description_sha256": "896c46074c5436cadf926e199a4184c4a78ab9483fc628267a4fa092c32d46b8",
+        "license": "MIT + file LICENSE",
+        "status": "matching-version source downloaded; exact compiled-source identity not proven",
+        "url": "https://cran.r-project.org/src/contrib/cachem_1.1.0.tar.gz",
+        "sha256": "550839fc2ae5d865db475ba2c1714144f07fa0c052c72135b0e4a70287492e21",
+        "bytes": 27192,
+        "source_description_sha256": "076e3fe121ead2eb4d8f137e9d2bc963208c80c21820d6dcea692278fe082d4d",
+        "source_license": "MIT + file LICENSE",
+        "collected_local_file": "r-source-candidates/cachem_1.1.0.tar.gz"
+      }
+    },
+    {
+      "name": "cli",
+      "version": "3.6.6",
+      "license": "MIT + file LICENSE",
+      "built": "R 4.6.0; wasm32-unknown-emscripten; 2026-05-21 13:29:57 UTC; unix",
+      "repository": "RSPM",
+      "installed_description_sha256": "da57bec6087223524e36e175eb560746dc71d693ca125eaf4255f45d7a0e50ec",
+      "source_candidate": {
+        "package": "cli",
+        "version": "3.6.6",
+        "image_description_sha256": "da57bec6087223524e36e175eb560746dc71d693ca125eaf4255f45d7a0e50ec",
+        "license": "MIT + file LICENSE",
+        "status": "matching-version source downloaded; exact compiled-source identity not proven",
+        "url": "https://cran.r-project.org/src/contrib/cli_3.6.6.tar.gz",
+        "sha256": "b2b58d6dd82f5798b335e39c00591686a01fd3e94399ef898e146173e36f18f9",
+        "bytes": 644134,
+        "source_description_sha256": "9d08623e469d026772ea58d382f1208aedb7a072190b5d7089371a0ce7d0e196",
+        "source_license": "MIT + file LICENSE",
+        "collected_local_file": "r-source-candidates/cli_3.6.6.tar.gz"
+      }
+    },
+    {
+      "name": "codetools",
+      "version": "0.2-20",
+      "license": "GPL",
+      "built": "R 4.6.0; ; 2026-05-21 13:30:04 UTC; unix",
+      "repository": "RSPM",
+      "installed_description_sha256": "020a1b0ebf78028e37058834cfae298995261edf090a60b70992daabf5780585",
+      "source_candidate": {
+        "package": "codetools",
+        "version": "0.2-20",
+        "image_description_sha256": "020a1b0ebf78028e37058834cfae298995261edf090a60b70992daabf5780585",
+        "license": "GPL",
+        "status": "matching-version source downloaded; exact compiled-source identity not proven",
+        "url": "https://cran.r-project.org/src/contrib/codetools_0.2-20.tar.gz",
+        "sha256": "3be6f375ec178723ddfd559d1e8e85bfeee04a5fbaf9f53f2f844e1669fea863",
+        "bytes": 38683,
+        "source_description_sha256": "ac4c6da21120815678c3a10e34223f416c47bde737159edf3bbeec043c785a72",
+        "source_license": "GPL",
+        "collected_local_file": "r-source-candidates/codetools_0.2-20.tar.gz"
+      }
+    },
+    {
+      "name": "colorspace",
+      "version": "2.1-2",
+      "license": "BSD_3_clause + file LICENSE",
+      "built": "R 4.6.0; wasm32-unknown-emscripten; 2026-05-21 13:30:06 UTC; unix",
+      "repository": "RSPM",
+      "installed_description_sha256": "8a12932609d034969b5b174b72941cf8421507db1a559e80bad84c425158a757",
+      "source_candidate": {
+        "package": "colorspace",
+        "version": "2.1-2",
+        "image_description_sha256": "8a12932609d034969b5b174b72941cf8421507db1a559e80bad84c425158a757",
+        "license": "BSD_3_clause + file LICENSE",
+        "status": "matching-version source downloaded; exact compiled-source identity not proven",
+        "url": "https://cran.r-project.org/src/contrib/Archive/colorspace/colorspace_2.1-2.tar.gz",
+        "sha256": "ec71499d33ef5d72b7fb3359b8320639e06e413abad61a070201178a254b153e",
+        "bytes": 2149260,
+        "source_description_sha256": "dbe718997ecc5e47b2cb35509e03713d79e31b1f81e4fb67630c55a4188d2e5d",
+        "source_license": "BSD_3_clause + file LICENSE",
+        "collected_local_file": "r-source-candidates/colorspace_2.1-2.tar.gz"
+      }
+    },
+    {
+      "name": "commonmark",
+      "version": "2.0.0",
+      "license": "BSD_2_clause + file LICENSE",
+      "built": "R 4.6.0; wasm32-unknown-emscripten; 2026-05-21 13:30:09 UTC; unix",
+      "repository": "RSPM",
+      "installed_description_sha256": "88a96d5fc755f18ea077b83747fbab64601281fdc9454f798458cfebca3d2808",
+      "source_candidate": {
+        "package": "commonmark",
+        "version": "2.0.0",
+        "image_description_sha256": "88a96d5fc755f18ea077b83747fbab64601281fdc9454f798458cfebca3d2808",
+        "license": "BSD_2_clause + file LICENSE",
+        "status": "matching-version source downloaded; exact compiled-source identity not proven",
+        "url": "https://cran.r-project.org/src/contrib/commonmark_2.0.0.tar.gz",
+        "sha256": "7f47d7f9f4ff5d1e2a73a69f6e233d2ddbafae97944ddf664a6000aa94936904",
+        "bytes": 147234,
+        "source_description_sha256": "ee3814efc0b40e4af09de95af55e1a41de8aa6d10a8be71b7a4ada1fc294253c",
+        "source_license": "BSD_2_clause + file LICENSE",
+        "collected_local_file": "r-source-candidates/commonmark_2.0.0.tar.gz"
+      }
+    },
+    {
+      "name": "crayon",
+      "version": "1.5.3",
+      "license": "MIT + file LICENSE",
+      "built": "R 4.6.0; ; 2026-05-21 13:30:17 UTC; unix",
+      "repository": "RSPM",
+      "installed_description_sha256": "654a7ed129d172c51a971c85b28619b5a84ee9224a45ed7dc05b8db10cd53c02",
+      "source_candidate": {
+        "package": "crayon",
+        "version": "1.5.3",
+        "image_description_sha256": "654a7ed129d172c51a971c85b28619b5a84ee9224a45ed7dc05b8db10cd53c02",
+        "license": "MIT + file LICENSE",
+        "status": "matching-version source downloaded; exact compiled-source identity not proven",
+        "url": "https://cran.r-project.org/src/contrib/crayon_1.5.3.tar.gz",
+        "sha256": "3e74a0685541efb5ea763b92cfd5c859df71c46b0605967a0b5dbb7326e9da69",
+        "bytes": 40396,
+        "source_description_sha256": "d8876333f47273f6748fe7ba6f0d650a6ef9928a27688be58bbc108a6c88e871",
+        "source_license": "MIT + file LICENSE",
+        "collected_local_file": "r-source-candidates/crayon_1.5.3.tar.gz"
+      }
+    },
+    {
+      "name": "digest",
+      "version": "0.6.39",
+      "license": "GPL (>= 2)",
+      "built": "R 4.6.0; wasm32-unknown-emscripten; 2026-05-21 13:30:19 UTC; unix",
+      "repository": "RSPM",
+      "installed_description_sha256": "bd879c40e325136ee7e69cebb626b196d162dbd05b838ba463748490bd5decd9",
+      "source_candidate": {
+        "package": "digest",
+        "version": "0.6.39",
+        "image_description_sha256": "bd879c40e325136ee7e69cebb626b196d162dbd05b838ba463748490bd5decd9",
+        "license": "GPL (>= 2)",
+        "status": "matching-version source downloaded; exact compiled-source identity not proven",
+        "url": "https://cran.r-project.org/src/contrib/digest_0.6.39.tar.gz",
+        "sha256": "8bf048b49b2d17077138fae758bda56bbd53278d9437f2fdeaedf979c90a13c9",
+        "bytes": 236629,
+        "source_description_sha256": "07dcde79e44828236433e7de97be2e49b8f4e689b262160fff1a76b300a71043",
+        "source_license": "GPL (>= 2)",
+        "collected_local_file": "r-source-candidates/digest_0.6.39.tar.gz"
+      }
+    },
+    {
+      "name": "ellipsis",
+      "version": "0.3.3",
+      "license": "MIT + file LICENSE",
+      "built": "R 4.6.0; ; 2026-05-21 13:30:24 UTC; unix",
+      "repository": "RSPM",
+      "installed_description_sha256": "37cbf029e4220a42ea2503e222217e0929d10035ad58745de738010cfea3553a",
+      "source_candidate": {
+        "package": "ellipsis",
+        "version": "0.3.3",
+        "image_description_sha256": "37cbf029e4220a42ea2503e222217e0929d10035ad58745de738010cfea3553a",
+        "license": "MIT + file LICENSE",
+        "status": "matching-version source downloaded; exact compiled-source identity not proven",
+        "url": "https://cran.r-project.org/src/contrib/ellipsis_0.3.3.tar.gz",
+        "sha256": "da1782bce5c1baf1cf8c69877078db51fabf2693a393b55ff044fd2e32966873",
+        "bytes": 5849,
+        "source_description_sha256": "d91c975d22a184fcd45741a7b8a47e4d6d9403c693b996b297f3a4489a03ab66",
+        "source_license": "MIT + file LICENSE",
+        "collected_local_file": "r-source-candidates/ellipsis_0.3.3.tar.gz"
+      }
+    },
+    {
+      "name": "fastmap",
+      "version": "1.2.0",
+      "license": "MIT + file LICENSE",
+      "built": "R 4.6.0; wasm32-unknown-emscripten; 2026-05-21 13:30:26 UTC; unix",
+      "repository": "RSPM",
+      "installed_description_sha256": "9ca1bf8e5b6678a8d860fb4833a5713283d5a91b8189760c2fff3eb0c9500119",
+      "source_candidate": {
+        "package": "fastmap",
+        "version": "1.2.0",
+        "image_description_sha256": "9ca1bf8e5b6678a8d860fb4833a5713283d5a91b8189760c2fff3eb0c9500119",
+        "license": "MIT + file LICENSE",
+        "status": "matching-version source downloaded; exact compiled-source identity not proven",
+        "url": "https://cran.r-project.org/src/contrib/fastmap_1.2.0.tar.gz",
+        "sha256": "b1da04a2915d1d057f3c2525e295ef15016a64e6667eac83a14641bbd83b9246",
+        "bytes": 46710,
+        "source_description_sha256": "7baa0487de7572847311cdbdde3c60d4fe325baa2a19c443b15cfa855d646b97",
+        "source_license": "MIT + file LICENSE",
+        "collected_local_file": "r-source-candidates/fastmap_1.2.0.tar.gz"
+      }
+    },
+    {
+      "name": "fontawesome",
+      "version": "0.5.3",
+      "license": "MIT + file LICENSE",
+      "built": "R 4.6.0; ; 2026-05-21 13:30:30 UTC; unix",
+      "repository": "RSPM",
+      "installed_description_sha256": "6b78963b54a37acc093a99316ec0f6725582da4fb9f475c370e64ce60f02cee3",
+      "source_candidate": {
+        "package": "fontawesome",
+        "version": "0.5.3",
+        "image_description_sha256": "6b78963b54a37acc093a99316ec0f6725582da4fb9f475c370e64ce60f02cee3",
+        "license": "MIT + file LICENSE",
+        "status": "matching-version source downloaded; exact compiled-source identity not proven",
+        "url": "https://cran.r-project.org/src/contrib/fontawesome_0.5.3.tar.gz",
+        "sha256": "1b1909d0fad5ec4c658f5c628a195b9bd93d544afa957e68e897224cfb81fb4f",
+        "bytes": 1320479,
+        "source_description_sha256": "f7cf1d4d9c5a45be3b4338512285c0ca22e679b5167133ff4263f350d7f56f97",
+        "source_license": "MIT + file LICENSE",
+        "collected_local_file": "r-source-candidates/fontawesome_0.5.3.tar.gz"
+      }
+    },
+    {
+      "name": "fs",
+      "version": "2.1.0",
+      "license": "MIT + file LICENSE",
+      "built": "R 4.6.0; wasm32-unknown-emscripten; 2026-05-21 13:30:32 UTC; unix",
+      "repository": "RSPM",
+      "installed_description_sha256": "46a1928ca38b824319e136cd23c6de2a5c344f2fe11b68a376fab986416f7f21",
+      "source_candidate": {
+        "package": "fs",
+        "version": "2.1.0",
+        "image_description_sha256": "46a1928ca38b824319e136cd23c6de2a5c344f2fe11b68a376fab986416f7f21",
+        "license": "MIT + file LICENSE",
+        "status": "matching-version source downloaded; exact compiled-source identity not proven",
+        "url": "https://cran.r-project.org/src/contrib/fs_2.1.0.tar.gz",
+        "sha256": "7088af1117d65c4ceb144b532e323f197fc8243b1d704bf6edf40774789829cd",
+        "bytes": 1471347,
+        "source_description_sha256": "e7081de391a4f2679eb19665105622acdbe4bfa97b936a1a4b3abc0db93f0b4c",
+        "source_license": "MIT + file LICENSE",
+        "collected_local_file": "r-source-candidates/fs_2.1.0.tar.gz"
+      }
+    },
+    {
+      "name": "glue",
+      "version": "1.8.1",
+      "license": "MIT + file LICENSE",
+      "built": "R 4.6.0; wasm32-unknown-emscripten; 2026-05-21 13:30:40 UTC; unix",
+      "repository": "RSPM",
+      "installed_description_sha256": "5d4787f6ac3e51b22ef0ddd78b4087a58a76379a714de8ba2e972c23fb6653d9",
+      "source_candidate": {
+        "package": "glue",
+        "version": "1.8.1",
+        "image_description_sha256": "5d4787f6ac3e51b22ef0ddd78b4087a58a76379a714de8ba2e972c23fb6653d9",
+        "license": "MIT + file LICENSE",
+        "status": "matching-version source downloaded; exact compiled-source identity not proven",
+        "url": "https://cran.r-project.org/src/contrib/glue_1.8.1.tar.gz",
+        "sha256": "1c55905d3efc3d5c199ceb0bd12218e97f0d4c64df6038ff41ecef415478a122",
+        "bytes": 129786,
+        "source_description_sha256": "f76de9524f1387e2d0827d7deb4f7d7f56f44cb638bbbe2ba17929cf495c46d9",
+        "source_license": "MIT + file LICENSE",
+        "collected_local_file": "r-source-candidates/glue_1.8.1.tar.gz"
+      }
+    },
+    {
+      "name": "htmltools",
+      "version": "0.5.9",
+      "license": "GPL (>= 2)",
+      "built": "R 4.6.0; wasm32-unknown-emscripten; 2026-05-21 13:30:42 UTC; unix",
+      "repository": "RSPM",
+      "installed_description_sha256": "ec1833aac05f9a50fa4351c56546fac7c36a5c12deb1d57c3341b632c4a6fa5b",
+      "source_candidate": {
+        "package": "htmltools",
+        "version": "0.5.9",
+        "image_description_sha256": "ec1833aac05f9a50fa4351c56546fac7c36a5c12deb1d57c3341b632c4a6fa5b",
+        "license": "GPL (>= 2)",
+        "status": "matching-version source downloaded; exact compiled-source identity not proven",
+        "url": "https://cran.r-project.org/src/contrib/htmltools_0.5.9.tar.gz",
+        "sha256": "19308618da485818f69dcfeeadd2ddc81d43a736a74519df7b3fd98e13128afd",
+        "bytes": 135206,
+        "source_description_sha256": "fab336cae4320a0d4158603646805186217fc68b8002509f79c1f1d918417daf",
+        "source_license": "GPL (>= 2)",
+        "collected_local_file": "r-source-candidates/htmltools_0.5.9.tar.gz"
+      }
+    },
+    {
+      "name": "httpuv",
+      "version": "1.6.6.9000",
+      "license": "GPL (>= 2) | file LICENSE",
+      "built": "R 4.6.0; wasm32-unknown-emscripten; 2026-05-21 13:30:48 UTC; unix",
+      "repository": null,
+      "installed_description_sha256": "7c6723003d54d820188f649ca7fd084a6c40100cbdc0ccd8de130e9dcf8c7cc3",
+      "source_candidate": {
+        "package": "httpuv",
+        "version": "1.6.6.9000",
+        "image_description_sha256": "7c6723003d54d820188f649ca7fd084a6c40100cbdc0ccd8de130e9dcf8c7cc3",
+        "license": "GPL (>= 2) | file LICENSE",
+        "status": "fork source requires exact image-build revision mapping",
+        "upstream_repo": "https://github.com/r-wasm/httpuv"
+      }
+    },
+    {
+      "name": "jquerylib",
+      "version": "0.1.4",
+      "license": "MIT + file LICENSE",
+      "built": "R 4.6.0; ; 2026-05-21 13:30:54 UTC; unix",
+      "repository": "RSPM",
+      "installed_description_sha256": "e03c9a5e9c2ed42976a48d8a0f1a06b84a1943633286144027e593b5855a0a1a",
+      "source_candidate": {
+        "package": "jquerylib",
+        "version": "0.1.4",
+        "image_description_sha256": "e03c9a5e9c2ed42976a48d8a0f1a06b84a1943633286144027e593b5855a0a1a",
+        "license": "MIT + file LICENSE",
+        "status": "matching-version source downloaded; exact compiled-source identity not proven",
+        "url": "https://cran.r-project.org/src/contrib/jquerylib_0.1.4.tar.gz",
+        "sha256": "f0bcc11dcde3a6ff180277e45c24642d3da3c8690900e38f44495efbc9064411",
+        "bytes": 520207,
+        "source_description_sha256": "5d5a09f999eb5120dd34aec25b9fad5172e60e2d0fa30b1512433fe300f038c5",
+        "source_license": "MIT + file LICENSE",
+        "collected_local_file": "r-source-candidates/jquerylib_0.1.4.tar.gz"
+      }
+    },
+    {
+      "name": "jsonlite",
+      "version": "2.0.0",
+      "license": "MIT + file LICENSE",
+      "built": "R 4.6.0; wasm32-unknown-emscripten; 2026-05-21 13:30:56 UTC; unix",
+      "repository": "RSPM",
+      "installed_description_sha256": "f75a1c0f3520406223bbe3f22aae2252cd1f9201d811a46876f940de7f2a5a5f",
+      "source_candidate": {
+        "package": "jsonlite",
+        "version": "2.0.0",
+        "image_description_sha256": "f75a1c0f3520406223bbe3f22aae2252cd1f9201d811a46876f940de7f2a5a5f",
+        "license": "MIT + file LICENSE",
+        "status": "matching-version source downloaded; exact compiled-source identity not proven",
+        "url": "https://cran.r-project.org/src/contrib/jsonlite_2.0.0.tar.gz",
+        "sha256": "75eb910c82b350ec33f094779da0f87bff154c232e4ae39c9896a9b89f3ac82d",
+        "bytes": 1055849,
+        "source_description_sha256": "427df14753b07bb9f6a5ea8799d39dcdcdf5a18026f32c88c5652356da0daa09",
+        "source_license": "MIT + file LICENSE",
+        "collected_local_file": "r-source-candidates/jsonlite_2.0.0.tar.gz"
+      }
+    },
+    {
+      "name": "later",
+      "version": "1.4.2.9000",
+      "license": "MIT + file LICENSE",
+      "built": "R 4.6.0; wasm32-unknown-emscripten; 2026-05-21 13:31:03 UTC; unix",
+      "repository": null,
+      "installed_description_sha256": "fa3a3e303aff557e2375ca09af38b29e2f9d31dc4451412269ff62e67140f86b",
+      "source_candidate": {
+        "package": "later",
+        "version": "1.4.2.9000",
+        "image_description_sha256": "fa3a3e303aff557e2375ca09af38b29e2f9d31dc4451412269ff62e67140f86b",
+        "license": "MIT + file LICENSE",
+        "status": "fork source requires exact image-build revision mapping",
+        "upstream_repo": "https://github.com/r-wasm/later"
+      }
+    },
+    {
+      "name": "lifecycle",
+      "version": "1.0.5",
+      "license": "MIT + file LICENSE",
+      "built": "R 4.6.0; ; 2026-05-21 13:31:18 UTC; unix",
+      "repository": "RSPM",
+      "installed_description_sha256": "6a2d44e63de844923db3d949324c60883a96281db392dfc30ca27208469b40e0",
+      "source_candidate": {
+        "package": "lifecycle",
+        "version": "1.0.5",
+        "image_description_sha256": "6a2d44e63de844923db3d949324c60883a96281db392dfc30ca27208469b40e0",
+        "license": "MIT + file LICENSE",
+        "status": "matching-version source downloaded; exact compiled-source identity not proven",
+        "url": "https://cran.r-project.org/src/contrib/lifecycle_1.0.5.tar.gz",
+        "sha256": "61841e3e6edba056a88355a3f1d6698ab8d5d9cb3c05f2af0ec5a44ab516f8ee",
+        "bytes": 107137,
+        "source_description_sha256": "fe1205b666b2d69de83126d92b1b1a75dbf00bd2e3210ed75287dfddc513c9d4",
+        "source_license": "MIT + file LICENSE",
+        "collected_local_file": "r-source-candidates/lifecycle_1.0.5.tar.gz"
+      }
+    },
+    {
+      "name": "magrittr",
+      "version": "2.0.5",
+      "license": "MIT + file LICENSE",
+      "built": "R 4.6.0; wasm32-unknown-emscripten; 2026-05-21 13:31:20 UTC; unix",
+      "repository": "RSPM",
+      "installed_description_sha256": "a20f43003df473e92b18b4aba17bd13b8d1485b6d9da0676e8526a93a7982675",
+      "source_candidate": {
+        "package": "magrittr",
+        "version": "2.0.5",
+        "image_description_sha256": "a20f43003df473e92b18b4aba17bd13b8d1485b6d9da0676e8526a93a7982675",
+        "license": "MIT + file LICENSE",
+        "status": "matching-version source downloaded; exact compiled-source identity not proven",
+        "url": "https://cran.r-project.org/src/contrib/magrittr_2.0.5.tar.gz",
+        "sha256": "3f5b5b1d4e6d12807a95c50b6c88cb1d8af2c5eb5213f08bfe58f278eca2ed23",
+        "bytes": 281813,
+        "source_description_sha256": "8f8f692840b8139ee04b6ad4ff7d6227188aa22e1006cf5270d64c1f305a2c91",
+        "source_license": "MIT + file LICENSE",
+        "collected_local_file": "r-source-candidates/magrittr_2.0.5.tar.gz"
+      }
+    },
+    {
+      "name": "memoise",
+      "version": "2.0.1",
+      "license": "MIT + file LICENSE",
+      "built": "R 4.6.0; ; 2026-05-21 13:31:22 UTC; unix",
+      "repository": "RSPM",
+      "installed_description_sha256": "39fbf2ea79c21a379df3ddadc66b5fd0b9606d0d97643f4d74090e14b9c743ac",
+      "source_candidate": {
+        "package": "memoise",
+        "version": "2.0.1",
+        "image_description_sha256": "39fbf2ea79c21a379df3ddadc66b5fd0b9606d0d97643f4d74090e14b9c743ac",
+        "license": "MIT + file LICENSE",
+        "status": "matching-version source downloaded; exact compiled-source identity not proven",
+        "url": "https://cran.r-project.org/src/contrib/memoise_2.0.1.tar.gz",
+        "sha256": "f85034ee98c8ca07fb3cd826142c1cd1e1e5747075a94c75a45783bbc4fe2deb",
+        "bytes": 17852,
+        "source_description_sha256": "123c3c642727314655a596f01b46b73f711f114148de9ee09c78bdc6371e76f0",
+        "source_license": "MIT + file LICENSE",
+        "collected_local_file": "r-source-candidates/memoise_2.0.1.tar.gz"
+      }
+    },
+    {
+      "name": "mime",
+      "version": "0.13",
+      "license": "GPL",
+      "built": "R 4.6.0; wasm32-unknown-emscripten; 2026-05-21 13:31:23 UTC; unix",
+      "repository": "RSPM",
+      "installed_description_sha256": "f25a52a80266e6215709e22f198e451643f3a3307c6b5e9f09bef60300a90152",
+      "source_candidate": {
+        "package": "mime",
+        "version": "0.13",
+        "image_description_sha256": "f25a52a80266e6215709e22f198e451643f3a3307c6b5e9f09bef60300a90152",
+        "license": "GPL",
+        "status": "matching-version source downloaded; exact compiled-source identity not proven",
+        "url": "https://cran.r-project.org/src/contrib/mime_0.13.tar.gz",
+        "sha256": "7132834cf3c3388eff12bad376d69fbcf8275acc37d36c290e59174fe3c7f3eb",
+        "bytes": 21950,
+        "source_description_sha256": "c16f45af25b5a28ac898844238c2fafc350d73a53a981e35b2f9e8d9d95c7da5",
+        "source_license": "GPL",
+        "collected_local_file": "r-source-candidates/mime_0.13.tar.gz"
+      }
+    },
+    {
+      "name": "munsell",
+      "version": "0.5.1",
+      "license": "MIT + file LICENSE",
+      "built": "R 4.6.0; ; 2026-05-21 13:31:26 UTC; unix",
+      "repository": "RSPM",
+      "installed_description_sha256": "b4e78102ed612059b5bdfe00fb42f079494678e188654ed4ebd730edf4efebca",
+      "source_candidate": {
+        "package": "munsell",
+        "version": "0.5.1",
+        "image_description_sha256": "b4e78102ed612059b5bdfe00fb42f079494678e188654ed4ebd730edf4efebca",
+        "license": "MIT + file LICENSE",
+        "status": "matching-version source downloaded; exact compiled-source identity not proven",
+        "url": "https://cran.r-project.org/src/contrib/munsell_0.5.1.tar.gz",
+        "sha256": "03a2fd9ac40766cded96dfe33b143d872d0aaa262a25482ce19161ca959429a6",
+        "bytes": 182310,
+        "source_description_sha256": "45734b8ff320fe3bdbffb020a397d290d950c49768501513fdc82037927f9e8f",
+        "source_license": "MIT + file LICENSE",
+        "collected_local_file": "r-source-candidates/munsell_0.5.1.tar.gz"
+      }
+    },
+    {
+      "name": "otel",
+      "version": "0.2.0",
+      "license": "MIT + file LICENSE",
+      "built": "R 4.6.0; ; 2026-05-21 13:31:27 UTC; unix",
+      "repository": "RSPM",
+      "installed_description_sha256": "834ae3b446a5ab4f50f60383995853c6228aff66345cc863e1cb25f0455c4394",
+      "source_candidate": {
+        "package": "otel",
+        "version": "0.2.0",
+        "image_description_sha256": "834ae3b446a5ab4f50f60383995853c6228aff66345cc863e1cb25f0455c4394",
+        "license": "MIT + file LICENSE",
+        "status": "matching-version source downloaded; exact compiled-source identity not proven",
+        "url": "https://cran.r-project.org/src/contrib/otel_0.2.0.tar.gz",
+        "sha256": "ef8afe5a1bc8074bbeb8a84134699ef348a1f8ac629ffba25ee43ea7bcd8dd17",
+        "bytes": 72585,
+        "source_description_sha256": "00b6144a5413f0dbfa1a13dbb7767eaead4cff48d1e780237c73de344eaef242",
+        "source_license": "MIT + file LICENSE",
+        "collected_local_file": "r-source-candidates/otel_0.2.0.tar.gz"
+      }
+    },
+    {
+      "name": "promises",
+      "version": "1.5.0",
+      "license": "MIT + file LICENSE",
+      "built": "R 4.6.0; ; 2026-05-21 13:31:30 UTC; unix",
+      "repository": "RSPM",
+      "installed_description_sha256": "66f02203802ee22c07a07cf843928ad8f6786f0c4124b715862c6f056236ffe9",
+      "source_candidate": {
+        "package": "promises",
+        "version": "1.5.0",
+        "image_description_sha256": "66f02203802ee22c07a07cf843928ad8f6786f0c4124b715862c6f056236ffe9",
+        "license": "MIT + file LICENSE",
+        "status": "matching-version source downloaded; exact compiled-source identity not proven",
+        "url": "https://cran.r-project.org/src/contrib/promises_1.5.0.tar.gz",
+        "sha256": "bb68fd4065cc072996aed416f0b2388f58738797a3a38024720c29d67164747d",
+        "bytes": 3210294,
+        "source_description_sha256": "c3c3eae4603df75e67305e92786face2e2d690e8e0cc660848510a8dfb9e747b",
+        "source_license": "MIT + file LICENSE",
+        "collected_local_file": "r-source-candidates/promises_1.5.0.tar.gz"
+      }
+    },
+    {
+      "name": "rappdirs",
+      "version": "0.3.4",
+      "license": "MIT + file LICENSE",
+      "built": "R 4.6.0; wasm32-unknown-emscripten; 2026-05-21 13:31:32 UTC; unix",
+      "repository": "RSPM",
+      "installed_description_sha256": "a6715ea4d7690e88b087d30e99e1665e33401d0a919454958c623fc3256f70eb",
+      "source_candidate": {
+        "package": "rappdirs",
+        "version": "0.3.4",
+        "image_description_sha256": "a6715ea4d7690e88b087d30e99e1665e33401d0a919454958c623fc3256f70eb",
+        "license": "MIT + file LICENSE",
+        "status": "matching-version source downloaded; exact compiled-source identity not proven",
+        "url": "https://cran.r-project.org/src/contrib/rappdirs_0.3.4.tar.gz",
+        "sha256": "2320ebc9ef3b1a32a1e63f94a6ce2c1c34d66782221a6531e786804f681abc66",
+        "bytes": 11763,
+        "source_description_sha256": "e4d6cac8c2f0ce2b0167eb5dbdc79a5dcd6d28ed7950ed4c9a19f37918a14ba4",
+        "source_license": "MIT + file LICENSE",
+        "collected_local_file": "r-source-candidates/rappdirs_0.3.4.tar.gz"
+      }
+    },
+    {
+      "name": "renv",
+      "version": "1.2.3",
+      "license": "MIT + file LICENSE",
+      "built": "R 4.6.0; ; 2026-05-21 13:31:34 UTC; unix",
+      "repository": "RSPM",
+      "installed_description_sha256": "c8c6e3db742ac4051abc973669c16c785491109bf03e9a006bc46b68c297b288",
+      "source_candidate": {
+        "package": "renv",
+        "version": "1.2.3",
+        "image_description_sha256": "c8c6e3db742ac4051abc973669c16c785491109bf03e9a006bc46b68c297b288",
+        "license": "MIT + file LICENSE",
+        "status": "matching-version source downloaded; exact compiled-source identity not proven",
+        "url": "https://cran.r-project.org/src/contrib/Archive/renv/renv_1.2.3.tar.gz",
+        "sha256": "f462b55ace5436b6bed18e01ac1267649fc196ad8505f55c8546704eda104bfb",
+        "bytes": 1381583,
+        "source_description_sha256": "b90309f2a3c7573076f5107ef3c9d803d01fab10b2d0a74bc7f2f33367d6a0cc",
+        "source_license": "MIT + file LICENSE",
+        "collected_local_file": "r-source-candidates/renv_1.2.3.tar.gz"
+      }
+    },
+    {
+      "name": "rlang",
+      "version": "1.2.0",
+      "license": "MIT + file LICENSE",
+      "built": "R 4.6.0; wasm32-unknown-emscripten; 2026-05-21 13:31:38 UTC; unix",
+      "repository": "RSPM",
+      "installed_description_sha256": "6628e459eaddd772819abbee499038384093f4069978010f43b1c451215bfc92",
+      "source_candidate": {
+        "package": "rlang",
+        "version": "1.2.0",
+        "image_description_sha256": "6628e459eaddd772819abbee499038384093f4069978010f43b1c451215bfc92",
+        "license": "MIT + file LICENSE",
+        "status": "matching-version source downloaded; exact compiled-source identity not proven",
+        "url": "https://cran.r-project.org/src/contrib/Archive/rlang/rlang_1.2.0.tar.gz",
+        "sha256": "8f808ad4f6c1ba37d81b6a4a2cdb4a7d4d30d5bee4ba3e9924352d85a3874357",
+        "bytes": 780860,
+        "source_description_sha256": "62962b1d4876127cecb52360f945a381e93b0be8f3cc085d96ffa6b6677e3c20",
+        "source_license": "MIT + file LICENSE",
+        "collected_local_file": "r-source-candidates/rlang_1.2.0.tar.gz"
+      }
+    },
+    {
+      "name": "sass",
+      "version": "0.4.10.9000",
+      "license": "MIT + file LICENSE",
+      "built": "R 4.6.0; wasm32-unknown-emscripten; 2026-05-21 13:31:43 UTC; unix",
+      "repository": null,
+      "installed_description_sha256": "30525176a795939deba6202e21f51e09b9b6755c12970a0113918f4c7b873c30",
+      "source_candidate": {
+        "package": "sass",
+        "version": "0.4.10.9000",
+        "image_description_sha256": "30525176a795939deba6202e21f51e09b9b6755c12970a0113918f4c7b873c30",
+        "license": "MIT + file LICENSE",
+        "status": "fork source requires exact image-build revision mapping",
+        "upstream_repo": "https://github.com/r-wasm/sass"
+      }
+    },
+    {
+      "name": "shiny",
+      "version": "1.13.0.8000",
+      "license": "MIT + file LICENSE",
+      "built": "R 4.6.0; ; 2026-05-21 13:29:25 UTC; unix",
+      "repository": null,
+      "installed_description_sha256": "f9a823a1d35896f735d8518ce6629de7e8f71b2968000aae469ebe1dc0ca00e7",
+      "source_candidate": {
+        "package": "shiny",
+        "version": "1.13.0.8000",
+        "image_description_sha256": "f9a823a1d35896f735d8518ce6629de7e8f71b2968000aae469ebe1dc0ca00e7",
+        "license": "MIT + file LICENSE",
+        "status": "exact release tag collected",
+        "upstream_repo": "https://github.com/r-wasm/shiny",
+        "tag": "v1.13.0.8000",
+        "commit": "ad8cadf9618b460f8362a8d1e1bb9e3f68789f25"
+      }
+    },
+    {
+      "name": "sourcetools",
+      "version": "0.1.7-2",
+      "license": "MIT + file LICENSE",
+      "built": "R 4.6.0; wasm32-unknown-emscripten; 2026-05-21 13:33:26 UTC; unix",
+      "repository": "RSPM",
+      "installed_description_sha256": "96cc5275a735c3b0caf91a1ced2d0f0306e34f1be142abbaa8d5033495bc7b5b",
+      "source_candidate": {
+        "package": "sourcetools",
+        "version": "0.1.7-2",
+        "image_description_sha256": "96cc5275a735c3b0caf91a1ced2d0f0306e34f1be142abbaa8d5033495bc7b5b",
+        "license": "MIT + file LICENSE",
+        "status": "matching-version source downloaded; exact compiled-source identity not proven",
+        "url": "https://cran.r-project.org/src/contrib/sourcetools_0.1.7-2.tar.gz",
+        "sha256": "07e584b780d7fcdfa5b527214361fface49350ab49cf901bd3d5c15950e4f1a7",
+        "bytes": 24542,
+        "source_description_sha256": "cc70efcbadbf24696c77a627ca06b8a9c8200d62b117e924574f90aee8d71708",
+        "source_license": "MIT + file LICENSE",
+        "collected_local_file": "r-source-candidates/sourcetools_0.1.7-2.tar.gz"
+      }
+    },
+    {
+      "name": "withr",
+      "version": "3.0.2",
+      "license": "MIT + file LICENSE",
+      "built": "R 4.6.0; ; 2026-05-21 13:33:30 UTC; unix",
+      "repository": "RSPM",
+      "installed_description_sha256": "f91cac72366d8f7971ac29d8fe915d7ac098dfda81c33942a6750259a8894939",
+      "source_candidate": {
+        "package": "withr",
+        "version": "3.0.2",
+        "image_description_sha256": "f91cac72366d8f7971ac29d8fe915d7ac098dfda81c33942a6750259a8894939",
+        "license": "MIT + file LICENSE",
+        "status": "matching-version source downloaded; exact compiled-source identity not proven",
+        "url": "https://cran.r-project.org/src/contrib/Archive/withr/withr_3.0.2.tar.gz",
+        "sha256": "0a3a05f493d275cca4bf13c8c1b95a1a4eed7f83b2493f41fde02ce3fc92c1a3",
+        "bytes": 103240,
+        "source_description_sha256": "6da2ff6e3726c1ad15c9cb5fff275934b27c08ec3d266e90336f529f9b691b7b",
+        "source_license": "MIT + file LICENSE",
+        "collected_local_file": "r-source-candidates/withr_3.0.2.tar.gz"
+      }
+    },
+    {
+      "name": "xtable",
+      "version": "1.8-8",
+      "license": "GPL (>= 2)",
+      "built": "R 4.6.0; ; 2026-05-21 13:33:31 UTC; unix",
+      "repository": "RSPM",
+      "installed_description_sha256": "4fbe6cf3a2e57822a65883fb8d4ede2f2d4ad229fc85f834d6866f8847e868ec",
+      "source_candidate": {
+        "package": "xtable",
+        "version": "1.8-8",
+        "image_description_sha256": "4fbe6cf3a2e57822a65883fb8d4ede2f2d4ad229fc85f834d6866f8847e868ec",
+        "license": "GPL (>= 2)",
+        "status": "matching-version source downloaded; exact compiled-source identity not proven",
+        "url": "https://cran.r-project.org/src/contrib/xtable_1.8-8.tar.gz",
+        "sha256": "b999c031b91255fb92134b0e70e5f84c5609e9312c0518393b9d0a4aaf6b2510",
+        "bytes": 618708,
+        "source_description_sha256": "f2dc9c28a47a7874bf825fe39cbd9cf8e6d05396dd2f553d939df97ef09c03eb",
+        "source_license": "GPL (>= 2)",
+        "collected_local_file": "r-source-candidates/xtable_1.8-8.tar.gz"
+      }
+    }
+  ],
+  "atelier_pyodide": {
+    "info": {
+      "abi_version": "2024_0",
+      "arch": "wasm32",
+      "platform": "emscripten_3_1_58",
+      "python": "3.12.7",
+      "version": "0.27.7"
+    },
+    "baseline_payload_count": 31,
+    "baseline_payload_hash_matches": 31,
+    "selected_closure_payload_count": 22,
+    "selected_closure_wheels": 21,
+    "selected_closure_zip": "openblas-0.3.26.zip",
+    "selected_closure": [
+      {
+        "name": "contourpy",
+        "version": "1.3.0",
+        "file_name": "contourpy-1.3.0-cp312-cp312-pyodide_2024_0_wasm32.whl",
+        "depends": [
+          "numpy"
+        ],
+        "imports": [
+          "contourpy"
+        ],
+        "package_type": "package",
+        "sha256": "f6ca0437a039c40691be53ff5bd3c9774868add8d5c2d032167495c6ff1f1c4b",
+        "actual_sha256": "f6ca0437a039c40691be53ff5bd3c9774868add8d5c2d032167495c6ff1f1c4b",
+        "hash_matches_lock": true,
+        "source_input": {
+          "component": "contourpy",
+          "version": "1.3.0",
+          "recipe_sha256": "fc7450277eb9728b3ecb0c02578b56cb9d1eee9ab46bd935aab0b0cbd19849ac",
+          "url": "https://files.pythonhosted.org/packages/f5/f6/31a8f28b4a2a4fa0e01085e542f3081ab0588eff8e589d39d775172c9792/contourpy-1.3.0.tar.gz",
+          "expected_sha256": "7ffa0db17717a8ffb127efd0c95a4362d996b892c2904db72428d5b52e1938a4",
+          "verification_basis": "pinned Pyodide recipe",
+          "sha256": "7ffa0db17717a8ffb127efd0c95a4362d996b892c2904db72428d5b52e1938a4",
+          "bytes": 13464370,
+          "status": "downloaded and checksum verified",
+          "collected_local_file": "source-inputs/contourpy-1.3.0-contourpy-1.3.0.tar.gz",
+          "recipe_url": "https://github.com/pyodide/pyodide/blob/8250fdc3dc7bfd587fd8f4cc267e173095c58445/packages/contourpy/meta.yaml"
+        },
+        "selected_closure_member": true
+      },
+      {
+        "name": "cycler",
+        "version": "0.12.1",
+        "file_name": "cycler-0.12.1-py3-none-any.whl",
+        "depends": [
+          "six"
+        ],
+        "imports": [
+          "cycler"
+        ],
+        "package_type": "package",
+        "sha256": "e33687b4269fe3eda13c2d38006f9a5daa602c95f5c4f8d0576aff0717d001a6",
+        "actual_sha256": "e33687b4269fe3eda13c2d38006f9a5daa602c95f5c4f8d0576aff0717d001a6",
+        "hash_matches_lock": true,
+        "source_input": {
+          "component": "cycler",
+          "version": "0.12.1",
+          "recipe_sha256": "a8bc5b4d87828e5efa1c49cc7e43bc623c55ac35ae93a6c864830041e8ebc1c8",
+          "url": "https://files.pythonhosted.org/packages/a9/95/a3dbbb5028f35eafb79008e7522a75244477d2838f38cbb722248dabc2a8/cycler-0.12.1.tar.gz",
+          "expected_sha256": "88bb128f02ba341da8ef447245a9e138fae777f6a23943da4540077d3601eb1c",
+          "verification_basis": "exact-version PyPI source distribution; Pyodide recipe consumes pure-Python wheel instead",
+          "recipe_wheel_url": "https://files.pythonhosted.org/packages/e7/05/c19819d5e3d95294a6f5947fb9b9629efb316b96de511b418c53d245aae6/cycler-0.12.1-py3-none-any.whl",
+          "recipe_wheel_sha256": "85cef7cff222d8644161529808465972e51340599459b8ac3ccbac5a854e0d30",
+          "sha256": "88bb128f02ba341da8ef447245a9e138fae777f6a23943da4540077d3601eb1c",
+          "bytes": 7615,
+          "status": "downloaded and checksum verified",
+          "collected_local_file": "source-inputs/cycler-0.12.1-cycler-0.12.1.tar.gz",
+          "recipe_url": "https://github.com/pyodide/pyodide/blob/8250fdc3dc7bfd587fd8f4cc267e173095c58445/packages/cycler/meta.yaml"
+        },
+        "selected_closure_member": true
+      },
+      {
+        "name": "fonttools",
+        "version": "4.51.0",
+        "file_name": "fonttools-4.51.0-py3-none-any.whl",
+        "depends": [],
+        "imports": [
+          "fontTools"
+        ],
+        "package_type": "package",
+        "sha256": "0c9a46b9246333de02d0fe02c0580840d7136744121f256a870218ed7482b607",
+        "actual_sha256": "0c9a46b9246333de02d0fe02c0580840d7136744121f256a870218ed7482b607",
+        "hash_matches_lock": true,
+        "source_input": {
+          "component": "fonttools",
+          "version": "4.51.0",
+          "recipe_sha256": "6727c9c59e9825cb9bd3e0874bb38fcbd8b6b0a3b9188edd175ae36751043eb0",
+          "url": "https://files.pythonhosted.org/packages/73/e4/5f31f97c859e2223d59ce3da03c67908eb8f8f90d96f2537b73b68aa2a5a/fonttools-4.51.0.tar.gz",
+          "expected_sha256": "dc0673361331566d7a663d7ce0f6fdcbfbdc1f59c6e3ed1165ad7202ca183c68",
+          "verification_basis": "exact-version PyPI source distribution; Pyodide recipe consumes pure-Python wheel instead",
+          "recipe_wheel_url": "https://files.pythonhosted.org/packages/a8/ae/addd7b4abf37fe47c697ccca45e00f0ec28b74f78fb14bab92d3c7f7fedd/fonttools-4.51.0-py3-none-any.whl",
+          "recipe_wheel_sha256": "15c94eeef6b095831067f72c825eb0e2d48bb4cea0647c1b05c981ecba2bf39f",
+          "sha256": "dc0673361331566d7a663d7ce0f6fdcbfbdc1f59c6e3ed1165ad7202ca183c68",
+          "bytes": 3425900,
+          "status": "downloaded and checksum verified",
+          "collected_local_file": "source-inputs/fonttools-4.51.0-fonttools-4.51.0.tar.gz",
+          "recipe_url": "https://github.com/pyodide/pyodide/blob/8250fdc3dc7bfd587fd8f4cc267e173095c58445/packages/fonttools/meta.yaml"
+        },
+        "selected_closure_member": true
+      },
+      {
+        "name": "Jinja2",
+        "version": "3.1.3",
+        "file_name": "Jinja2-3.1.3-py3-none-any.whl",
+        "depends": [
+          "markupsafe"
+        ],
+        "imports": [
+          "jinja2"
+        ],
+        "package_type": "package",
+        "sha256": "2c74f33712082b6807f96c6ad4466fe57307d79659887078952f1fa6572580b7",
+        "actual_sha256": "2c74f33712082b6807f96c6ad4466fe57307d79659887078952f1fa6572580b7",
+        "hash_matches_lock": true,
+        "source_input": {
+          "component": "Jinja2",
+          "version": "3.1.3",
+          "recipe_sha256": "31fb6613234fad2b9b353e491dbd9c38f1b5cbaf07b580c6ba959f15c7ef251b",
+          "url": "https://files.pythonhosted.org/packages/b2/5e/3a21abf3cd467d7876045335e681d276ac32492febe6d98ad89562d1a7e1/Jinja2-3.1.3.tar.gz",
+          "expected_sha256": "ac8bd6544d4bb2c9792bf3a159e80bba8fda7f07e81bc3aed565432d5925ba90",
+          "verification_basis": "exact-version PyPI source distribution; Pyodide recipe consumes pure-Python wheel instead",
+          "recipe_wheel_url": "https://files.pythonhosted.org/packages/30/6d/6de6be2d02603ab56e72997708809e8a5b0fbfee080735109b40a3564843/Jinja2-3.1.3-py3-none-any.whl",
+          "recipe_wheel_sha256": "7d6d50dd97d52cbc355597bd845fabfbac3f551e1f99619e39a35ce8c370b5fa",
+          "sha256": "ac8bd6544d4bb2c9792bf3a159e80bba8fda7f07e81bc3aed565432d5925ba90",
+          "bytes": 268261,
+          "status": "downloaded and checksum verified",
+          "collected_local_file": "source-inputs/Jinja2-3.1.3-Jinja2-3.1.3.tar.gz",
+          "recipe_url": "https://github.com/pyodide/pyodide/blob/8250fdc3dc7bfd587fd8f4cc267e173095c58445/packages/jinja2/meta.yaml"
+        },
+        "selected_closure_member": true
+      },
+      {
+        "name": "joblib",
+        "version": "1.4.0",
+        "file_name": "joblib-1.4.0-py3-none-any.whl",
+        "depends": [],
+        "imports": [
+          "joblib"
+        ],
+        "package_type": "package",
+        "sha256": "c4a3bb8273356564230296537aae1c175e8fcc6bd998af6b9ab1be74e2d141b6",
+        "actual_sha256": "c4a3bb8273356564230296537aae1c175e8fcc6bd998af6b9ab1be74e2d141b6",
+        "hash_matches_lock": true,
+        "source_input": {
+          "component": "joblib",
+          "version": "1.4.0",
+          "recipe_sha256": "01ee67dfd1ace85361180dfd971364721f8abb04e7c337bae47273548ff17bc2",
+          "url": "https://files.pythonhosted.org/packages/7c/c3/94c9e4886e8f33832690ab48fdac4a121a7bfec3e2c044c9f2762aa9068e/joblib-1.4.0.tar.gz",
+          "expected_sha256": "1eb0dc091919cd384490de890cb5dfd538410a6d4b3b54eef09fb8c50b409b1c",
+          "verification_basis": "pinned Pyodide recipe",
+          "sha256": "1eb0dc091919cd384490de890cb5dfd538410a6d4b3b54eef09fb8c50b409b1c",
+          "bytes": 2115863,
+          "status": "downloaded and checksum verified",
+          "collected_local_file": "source-inputs/joblib-1.4.0-joblib-1.4.0.tar.gz",
+          "recipe_url": "https://github.com/pyodide/pyodide/blob/8250fdc3dc7bfd587fd8f4cc267e173095c58445/packages/joblib/meta.yaml"
+        },
+        "selected_closure_member": true
+      },
+      {
+        "name": "kiwisolver",
+        "version": "1.4.5",
+        "file_name": "kiwisolver-1.4.5-cp312-cp312-pyodide_2024_0_wasm32.whl",
+        "depends": [],
+        "imports": [
+          "kiwisolver"
+        ],
+        "package_type": "package",
+        "sha256": "d7652d88b3390d9d1d0175d6c79da675b42bac2cd748cc9b5766a3235da4b762",
+        "actual_sha256": "d7652d88b3390d9d1d0175d6c79da675b42bac2cd748cc9b5766a3235da4b762",
+        "hash_matches_lock": true,
+        "source_input": {
+          "component": "kiwisolver",
+          "version": "1.4.5",
+          "recipe_sha256": "cb5af0022c1469a5a90c27458c861d0c44ccb14694c25c11e51eceb52b7ddd8b",
+          "url": "https://files.pythonhosted.org/packages/b9/2d/226779e405724344fc678fcc025b812587617ea1a48b9442628b688e85ea/kiwisolver-1.4.5.tar.gz",
+          "expected_sha256": "e57e563a57fb22a142da34f38acc2fc1a5c864bc29ca1517a88abc963e60d6ec",
+          "verification_basis": "pinned Pyodide recipe",
+          "sha256": "e57e563a57fb22a142da34f38acc2fc1a5c864bc29ca1517a88abc963e60d6ec",
+          "bytes": 97552,
+          "status": "downloaded and checksum verified",
+          "collected_local_file": "source-inputs/kiwisolver-1.4.5-kiwisolver-1.4.5.tar.gz",
+          "recipe_url": "https://github.com/pyodide/pyodide/blob/8250fdc3dc7bfd587fd8f4cc267e173095c58445/packages/kiwisolver/meta.yaml"
+        },
+        "selected_closure_member": true
+      },
+      {
+        "name": "MarkupSafe",
+        "version": "2.1.5",
+        "file_name": "markupsafe-2.1.5-cp312-cp312-pyodide_2024_0_wasm32.whl",
+        "depends": [],
+        "imports": [
+          "markupsafe"
+        ],
+        "package_type": "package",
+        "sha256": "cceab881a7705a8e219f480ed089c4f5b87aad34d704e49360a53173e83f2681",
+        "actual_sha256": "cceab881a7705a8e219f480ed089c4f5b87aad34d704e49360a53173e83f2681",
+        "hash_matches_lock": true,
+        "source_input": {
+          "component": "MarkupSafe",
+          "version": "2.1.5",
+          "recipe_sha256": "d3556b9675aef6d998b324300d40ec6b9e81bf841f73cefc47a2ae3269109715",
+          "url": "https://files.pythonhosted.org/packages/87/5b/aae44c6655f3801e81aa3eef09dbbf012431987ba564d7231722f68df02d/MarkupSafe-2.1.5.tar.gz",
+          "expected_sha256": "d283d37a890ba4c1ae73ffadf8046435c76e7bc2247bbb63c00bd1a709c6544b",
+          "verification_basis": "pinned Pyodide recipe",
+          "sha256": "d283d37a890ba4c1ae73ffadf8046435c76e7bc2247bbb63c00bd1a709c6544b",
+          "bytes": 19384,
+          "status": "downloaded and checksum verified",
+          "collected_local_file": "source-inputs/MarkupSafe-2.1.5-MarkupSafe-2.1.5.tar.gz",
+          "recipe_url": "https://github.com/pyodide/pyodide/blob/8250fdc3dc7bfd587fd8f4cc267e173095c58445/packages/markupsafe/meta.yaml"
+        },
+        "selected_closure_member": true
+      },
+      {
+        "name": "matplotlib",
+        "version": "3.8.4",
+        "file_name": "matplotlib-3.8.4-cp312-cp312-pyodide_2024_0_wasm32.whl",
+        "depends": [
+          "contourpy",
+          "cycler",
+          "fonttools",
+          "kiwisolver",
+          "numpy",
+          "packaging",
+          "pillow",
+          "pyparsing",
+          "python-dateutil",
+          "pytz",
+          "matplotlib-pyodide"
+        ],
+        "imports": [
+          "pylab",
+          "mpl_toolkits",
+          "matplotlib"
+        ],
+        "package_type": "package",
+        "sha256": "50d4641b32e84ecb0a2c271728d4be73b1e0a0f5f29aa7dd6ea280f888b91340",
+        "actual_sha256": "50d4641b32e84ecb0a2c271728d4be73b1e0a0f5f29aa7dd6ea280f888b91340",
+        "hash_matches_lock": true,
+        "source_input": {
+          "component": "matplotlib",
+          "version": "3.8.4",
+          "recipe_sha256": "0b28e3c16b4ad20bca7df3217b23e8c4c9b1cbfedd0d782979b8731d4581dcb1",
+          "url": "https://files.pythonhosted.org/packages/38/4f/8487737a74d8be4ab5fbe6019b0fae305c1604cf7209500969b879b5f462/matplotlib-3.8.4.tar.gz",
+          "expected_sha256": "8aac397d5e9ec158960e31c381c5ffc52ddd52bd9a47717e2a694038167dffea",
+          "verification_basis": "pinned Pyodide recipe",
+          "sha256": "8aac397d5e9ec158960e31c381c5ffc52ddd52bd9a47717e2a694038167dffea",
+          "bytes": 35934425,
+          "status": "downloaded and checksum verified",
+          "collected_local_file": "source-inputs/matplotlib-3.8.4-matplotlib-3.8.4.tar.gz",
+          "recipe_url": "https://github.com/pyodide/pyodide/blob/8250fdc3dc7bfd587fd8f4cc267e173095c58445/packages/matplotlib/meta.yaml"
+        },
+        "selected_closure_member": true
+      },
+      {
+        "name": "matplotlib-pyodide",
+        "version": "0.2.3",
+        "file_name": "matplotlib_pyodide-0.2.3-py3-none-any.whl",
+        "depends": [],
+        "imports": [
+          "matplotlib_pyodide"
+        ],
+        "package_type": "package",
+        "sha256": "070d6244e7ae44f8753d3a78cf5c30f93c8d781e620991af848dcfd44112839f",
+        "actual_sha256": "070d6244e7ae44f8753d3a78cf5c30f93c8d781e620991af848dcfd44112839f",
+        "hash_matches_lock": true,
+        "source_input": {
+          "component": "matplotlib-pyodide",
+          "version": "0.2.3",
+          "recipe_sha256": "7bf1c0e2a99fdeb6aa5803397db7decc6b6940bf7fc2764dc66ada19e1556af5",
+          "url": "https://files.pythonhosted.org/packages/1a/f9/b5f36d3221e8e211f366544ccc817c61e8f5c2bcc912fe1e1bf9a6044909/matplotlib_pyodide-0.2.3.tar.gz",
+          "expected_sha256": "05a0042957f26ac77f824aa3d11ae25f3c0d05f93f78f3ed507d11a577da2ce9",
+          "verification_basis": "exact-version PyPI source distribution; Pyodide recipe consumes pure-Python wheel instead",
+          "recipe_wheel_url": "https://files.pythonhosted.org/packages/5b/9a/f2d911a8ae68f71366288c54d72271332419c1ed1ced64543d8213d9ff5b/matplotlib_pyodide-0.2.3-py3-none-any.whl",
+          "recipe_wheel_sha256": "e0f8c342a038316c89fe8e7a2bcbf4ef11b08344d72cd18ded38a1cddd41c8a6",
+          "sha256": "05a0042957f26ac77f824aa3d11ae25f3c0d05f93f78f3ed507d11a577da2ce9",
+          "bytes": 3393407,
+          "status": "downloaded and checksum verified",
+          "collected_local_file": "source-inputs/matplotlib-pyodide-0.2.3-matplotlib_pyodide-0.2.3.tar.gz",
+          "recipe_url": "https://github.com/pyodide/pyodide/blob/8250fdc3dc7bfd587fd8f4cc267e173095c58445/packages/matplotlib-pyodide/meta.yaml"
+        },
+        "selected_closure_member": true
+      },
+      {
+        "name": "micropip",
+        "version": "0.9.0",
+        "file_name": "micropip-0.9.0-py3-none-any.whl",
+        "depends": [
+          "packaging"
+        ],
+        "imports": [
+          "micropip"
+        ],
+        "package_type": "package",
+        "sha256": "034f22763607744f982d2911170c50b496a38b8ba0535e5a09618475b1d7b051",
+        "actual_sha256": "034f22763607744f982d2911170c50b496a38b8ba0535e5a09618475b1d7b051",
+        "hash_matches_lock": true,
+        "source_input": {
+          "component": "micropip",
+          "version": "0.9.0",
+          "recipe_sha256": "793a225d6e1aa4e8db47bd0342d25201bf4cc0d64018608f71ed538a4e233578",
+          "url": "https://files.pythonhosted.org/packages/3d/6f/aeef5f7696480704c133206511ff785dd86b76b6eba77391d14de162c1ab/micropip-0.9.0.tar.gz",
+          "expected_sha256": "d72c3224537a14e5d9d02f29e945bf7cde02404ec744291e8f6a310cedf60b66",
+          "verification_basis": "exact-version PyPI source distribution; Pyodide recipe consumes pure-Python wheel instead",
+          "recipe_wheel_url": "https://files.pythonhosted.org/packages/27/6d/195810e3e73e5f351dc6082cada41bb4d5b0746a6804155ba6bae4304612/micropip-0.9.0-py3-none-any.whl",
+          "recipe_wheel_sha256": "babcf68c1849e229aa887564bc5f2de50273c3212e73c9aff8e3e6e80f2b6a23",
+          "sha256": "d72c3224537a14e5d9d02f29e945bf7cde02404ec744291e8f6a310cedf60b66",
+          "bytes": 1783814,
+          "status": "downloaded and checksum verified",
+          "collected_local_file": "source-inputs/micropip-0.9.0-micropip-0.9.0.tar.gz",
+          "recipe_url": "https://github.com/pyodide/pyodide/blob/8250fdc3dc7bfd587fd8f4cc267e173095c58445/packages/micropip/meta.yaml"
+        },
+        "selected_closure_member": true
+      },
+      {
+        "name": "numpy",
+        "version": "2.0.2",
+        "file_name": "numpy-2.0.2-cp312-cp312-pyodide_2024_0_wasm32.whl",
+        "depends": [],
+        "imports": [
+          "numpy"
+        ],
+        "package_type": "package",
+        "sha256": "ebb61241d962b98b21597d7ce43b67668a6d5bab3acec4fbe958657320d7cd08",
+        "actual_sha256": "ebb61241d962b98b21597d7ce43b67668a6d5bab3acec4fbe958657320d7cd08",
+        "hash_matches_lock": true,
+        "source_input": {
+          "component": "numpy",
+          "version": "2.0.2",
+          "recipe_sha256": "36f7831c09a314845112e348d6436cffe08dcffb587f231a03b680e52f300011",
+          "url": "https://files.pythonhosted.org/packages/a9/75/10dd1f8116a8b796cb2c737b674e02d02e80454bda953fa7e65d8c12b016/numpy-2.0.2.tar.gz",
+          "expected_sha256": "883c987dee1880e2a864ab0dc9892292582510604156762362d9326444636e78",
+          "verification_basis": "pinned Pyodide recipe",
+          "sha256": "883c987dee1880e2a864ab0dc9892292582510604156762362d9326444636e78",
+          "bytes": 18902015,
+          "status": "downloaded and checksum verified",
+          "collected_local_file": "source-inputs/numpy-2.0.2-numpy-2.0.2.tar.gz",
+          "recipe_url": "https://github.com/pyodide/pyodide/blob/8250fdc3dc7bfd587fd8f4cc267e173095c58445/packages/numpy/meta.yaml"
+        },
+        "selected_closure_member": true
+      },
+      {
+        "name": "openblas",
+        "version": "0.3.26",
+        "file_name": "openblas-0.3.26.zip",
+        "depends": [],
+        "imports": [],
+        "package_type": "shared_library",
+        "sha256": "787ea9a8a5cd160204388d03324b3b7ce5c9aea14b5680cec987f837e76c5198",
+        "actual_sha256": "787ea9a8a5cd160204388d03324b3b7ce5c9aea14b5680cec987f837e76c5198",
+        "hash_matches_lock": true,
+        "source_input": {
+          "component": "openblas",
+          "version": "0.3.26",
+          "recipe_sha256": "e21b509835e26b7f3109f4395ece91246a0fddd48ae608472e872bd71e87cb26",
+          "url": "https://github.com/OpenMathLib/OpenBLAS/releases/download/v0.3.26/OpenBLAS-0.3.26.tar.gz",
+          "expected_sha256": "4e6e4f5cb14c209262e33e6816d70221a2fe49eb69eaf0a06f065598ac602c68",
+          "verification_basis": "pinned Pyodide recipe",
+          "sha256": "4e6e4f5cb14c209262e33e6816d70221a2fe49eb69eaf0a06f065598ac602c68",
+          "bytes": 24404912,
+          "status": "downloaded and checksum verified",
+          "collected_local_file": "source-inputs/openblas-0.3.26-OpenBLAS-0.3.26.tar.gz",
+          "recipe_url": "https://github.com/pyodide/pyodide/blob/8250fdc3dc7bfd587fd8f4cc267e173095c58445/packages/openblas/meta.yaml"
+        },
+        "selected_closure_member": true,
+        "license_assessment": "BSD-3-Clause plus bundled component notices (source LICENSE/GotoBLAS license)"
+      },
+      {
+        "name": "packaging",
+        "version": "24.2",
+        "file_name": "packaging-24.2-py3-none-any.whl",
+        "depends": [],
+        "imports": [
+          "packaging"
+        ],
+        "package_type": "package",
+        "sha256": "fbf6a5ace596eb8e28fe0089ecfc0bca2eb3930563e9ca06acb98ea5302b99f7",
+        "actual_sha256": "fbf6a5ace596eb8e28fe0089ecfc0bca2eb3930563e9ca06acb98ea5302b99f7",
+        "hash_matches_lock": true,
+        "source_input": {
+          "component": "packaging",
+          "version": "24.2",
+          "recipe_sha256": "7e5cfb4e05fe33624039b7bdbc29726996fa34063e98e88ad86841b2f60713b2",
+          "url": "https://files.pythonhosted.org/packages/d0/63/68dbb6eb2de9cb10ee4c9c14a0148804425e13c4fb20d61cce69f53106da/packaging-24.2.tar.gz",
+          "expected_sha256": "c228a6dc5e932d346bc5739379109d49e8853dd8223571c7c5b55260edc0b97f",
+          "verification_basis": "pinned Pyodide recipe",
+          "sha256": "c228a6dc5e932d346bc5739379109d49e8853dd8223571c7c5b55260edc0b97f",
+          "bytes": 163950,
+          "status": "downloaded and checksum verified",
+          "collected_local_file": "source-inputs/packaging-24.2-packaging-24.2.tar.gz",
+          "recipe_url": "https://github.com/pyodide/pyodide/blob/8250fdc3dc7bfd587fd8f4cc267e173095c58445/packages/packaging/meta.yaml"
+        },
+        "selected_closure_member": true
+      },
+      {
+        "name": "pandas",
+        "version": "2.2.3",
+        "file_name": "pandas-2.2.3-cp312-cp312-pyodide_2024_0_wasm32.whl",
+        "depends": [
+          "numpy",
+          "python-dateutil",
+          "pytz",
+          "jinja2"
+        ],
+        "imports": [
+          "pandas"
+        ],
+        "package_type": "package",
+        "sha256": "5502f0f94f93a482b851d0b8ca43be692c1b8d20215a168313656847ff74d63a",
+        "actual_sha256": "5502f0f94f93a482b851d0b8ca43be692c1b8d20215a168313656847ff74d63a",
+        "hash_matches_lock": true,
+        "source_input": {
+          "component": "pandas",
+          "version": "2.2.3",
+          "recipe_sha256": "7f374639409a9a754c9a50da97bf354e1e160c00185e867d0e8d46ea1d76ccec",
+          "url": "https://files.pythonhosted.org/packages/9c/d6/9f8431bacc2e19dca897724cd097b1bb224a6ad5433784a44b587c7c13af/pandas-2.2.3.tar.gz",
+          "expected_sha256": "4f18ba62b61d7e192368b84517265a99b4d7ee8912f8708660fb4a366cc82667",
+          "verification_basis": "pinned Pyodide recipe",
+          "sha256": "4f18ba62b61d7e192368b84517265a99b4d7ee8912f8708660fb4a366cc82667",
+          "bytes": 4399213,
+          "status": "downloaded and checksum verified",
+          "collected_local_file": "source-inputs/pandas-2.2.3-pandas-2.2.3.tar.gz",
+          "recipe_url": "https://github.com/pyodide/pyodide/blob/8250fdc3dc7bfd587fd8f4cc267e173095c58445/packages/pandas/meta.yaml"
+        },
+        "selected_closure_member": true
+      },
+      {
+        "name": "Pillow",
+        "version": "10.2.0",
+        "file_name": "pillow-10.2.0-cp312-cp312-pyodide_2024_0_wasm32.whl",
+        "depends": [],
+        "imports": [
+          "PIL"
+        ],
+        "package_type": "package",
+        "sha256": "43eab147a9355385a99eeac18fb577d4af2fe4bd0bbd23d3ba3ddb92e72c2815",
+        "actual_sha256": "43eab147a9355385a99eeac18fb577d4af2fe4bd0bbd23d3ba3ddb92e72c2815",
+        "hash_matches_lock": true,
+        "source_input": {
+          "component": "Pillow",
+          "version": "10.2.0",
+          "recipe_sha256": "27467709c26e073485f89fdc57c5dcce98ca3a1ab5b7bf14bff8651016034e25",
+          "url": "https://files.pythonhosted.org/packages/f8/3e/32cbd0129a28686621434cbf17bb64bf1458bfb838f1f668262fefce145c/pillow-10.2.0.tar.gz",
+          "expected_sha256": "e87f0b2c78157e12d7686b27d63c070fd65d994e8ddae6f328e0dcf4a0cd007e",
+          "verification_basis": "pinned Pyodide recipe",
+          "sha256": "e87f0b2c78157e12d7686b27d63c070fd65d994e8ddae6f328e0dcf4a0cd007e",
+          "bytes": 46212712,
+          "status": "downloaded and checksum verified",
+          "collected_local_file": "source-inputs/Pillow-10.2.0-pillow-10.2.0.tar.gz",
+          "recipe_url": "https://github.com/pyodide/pyodide/blob/8250fdc3dc7bfd587fd8f4cc267e173095c58445/packages/pillow/meta.yaml"
+        },
+        "selected_closure_member": true
+      },
+      {
+        "name": "pyparsing",
+        "version": "3.1.2",
+        "file_name": "pyparsing-3.1.2-py3-none-any.whl",
+        "depends": [],
+        "imports": [
+          "pyparsing"
+        ],
+        "package_type": "package",
+        "sha256": "9070866557845375d8180e9236021fdecb2b93be75a7c8de48841f1465133a60",
+        "actual_sha256": "9070866557845375d8180e9236021fdecb2b93be75a7c8de48841f1465133a60",
+        "hash_matches_lock": true,
+        "source_input": {
+          "component": "pyparsing",
+          "version": "3.1.2",
+          "recipe_sha256": "fb33bf4723c2329cc5fc1d4efb8b26eab6e8fc0798335460490af3592553186c",
+          "url": "https://files.pythonhosted.org/packages/46/3a/31fd28064d016a2182584d579e033ec95b809d8e220e74c4af6f0f2e8842/pyparsing-3.1.2.tar.gz",
+          "expected_sha256": "a1bac0ce561155ecc3ed78ca94d3c9378656ad4c94c1270de543f621420f94ad",
+          "verification_basis": "exact-version PyPI source distribution; Pyodide recipe consumes pure-Python wheel instead",
+          "recipe_wheel_url": "https://files.pythonhosted.org/packages/9d/ea/6d76df31432a0e6fdf81681a895f009a4bb47b3c39036db3e1b528191d52/pyparsing-3.1.2-py3-none-any.whl",
+          "recipe_wheel_sha256": "f9db75911801ed778fe61bb643079ff86601aca99fcae6345aa67292038fb742",
+          "sha256": "a1bac0ce561155ecc3ed78ca94d3c9378656ad4c94c1270de543f621420f94ad",
+          "bytes": 889571,
+          "status": "downloaded and checksum verified",
+          "collected_local_file": "source-inputs/pyparsing-3.1.2-pyparsing-3.1.2.tar.gz",
+          "recipe_url": "https://github.com/pyodide/pyodide/blob/8250fdc3dc7bfd587fd8f4cc267e173095c58445/packages/pyparsing/meta.yaml"
+        },
+        "selected_closure_member": true
+      },
+      {
+        "name": "python-dateutil",
+        "version": "2.9.0.post0",
+        "file_name": "python_dateutil-2.9.0.post0-py2.py3-none-any.whl",
+        "depends": [
+          "six"
+        ],
+        "imports": [
+          "dateutil"
+        ],
+        "package_type": "package",
+        "sha256": "02811ea3714f6697d639c07dc5ec63f5774dc7a688e4e1cbbe9beb2f33c3e6c9",
+        "actual_sha256": "02811ea3714f6697d639c07dc5ec63f5774dc7a688e4e1cbbe9beb2f33c3e6c9",
+        "hash_matches_lock": true,
+        "source_input": {
+          "component": "python-dateutil",
+          "version": "2.9.0.post0",
+          "recipe_sha256": "71dd8c1339cc602ca97d6623040cc3e4c9b69e79120e1015a393affa17de626e",
+          "url": "https://files.pythonhosted.org/packages/66/c0/0c8b6ad9f17a802ee498c46e004a0eb49bc148f2fd230864601a86dcf6db/python-dateutil-2.9.0.post0.tar.gz",
+          "expected_sha256": "37dd54208da7e1cd875388217d5e00ebd4179249f90fb72437e91a35459a0ad3",
+          "verification_basis": "exact-version PyPI source distribution; Pyodide recipe consumes pure-Python wheel instead",
+          "recipe_wheel_url": "https://files.pythonhosted.org/packages/ec/57/56b9bcc3c9c6a792fcbaf139543cee77261f3651ca9da0c93f5c1221264b/python_dateutil-2.9.0.post0-py2.py3-none-any.whl",
+          "recipe_wheel_sha256": "a8b2bc7bffae282281c8140a97d3aa9c14da0b136dfe83f850eea9a5f7470427",
+          "sha256": "37dd54208da7e1cd875388217d5e00ebd4179249f90fb72437e91a35459a0ad3",
+          "bytes": 342432,
+          "status": "downloaded and checksum verified",
+          "collected_local_file": "source-inputs/python-dateutil-2.9.0.post0-python-dateutil-2.9.0.post0.tar.gz",
+          "recipe_url": "https://github.com/pyodide/pyodide/blob/8250fdc3dc7bfd587fd8f4cc267e173095c58445/packages/python-dateutil/meta.yaml"
+        },
+        "selected_closure_member": true
+      },
+      {
+        "name": "pytz",
+        "version": "2024.1",
+        "file_name": "pytz-2024.1-py2.py3-none-any.whl",
+        "depends": [],
+        "imports": [
+          "pytz"
+        ],
+        "package_type": "package",
+        "sha256": "fcfc168155da8d19057b17bee735fef71dc3a39f1dccd83514e16ecc6abaddc4",
+        "actual_sha256": "fcfc168155da8d19057b17bee735fef71dc3a39f1dccd83514e16ecc6abaddc4",
+        "hash_matches_lock": true,
+        "source_input": {
+          "component": "pytz",
+          "version": "2024.1",
+          "recipe_sha256": "db9c3885e85989a392f0c93c148e1e3964b80c8077f7283d105791e4b6327b2f",
+          "url": "https://files.pythonhosted.org/packages/90/26/9f1f00a5d021fff16dee3de13d43e5e978f3d58928e129c3a62cf7eb9738/pytz-2024.1.tar.gz",
+          "expected_sha256": "2a29735ea9c18baf14b448846bde5a48030ed267578472d8955cd0e7443a9812",
+          "verification_basis": "exact-version PyPI source distribution; Pyodide recipe consumes pure-Python wheel instead",
+          "recipe_wheel_url": "https://files.pythonhosted.org/packages/9c/3d/a121f284241f08268b21359bd425f7d4825cffc5ac5cd0e1b3d82ffd2b10/pytz-2024.1-py2.py3-none-any.whl",
+          "recipe_wheel_sha256": "328171f4e3623139da4983451950b28e95ac706e13f3f2630a879749e7a8b319",
+          "sha256": "2a29735ea9c18baf14b448846bde5a48030ed267578472d8955cd0e7443a9812",
+          "bytes": 316214,
+          "status": "downloaded and checksum verified",
+          "collected_local_file": "source-inputs/pytz-2024.1-pytz-2024.1.tar.gz",
+          "recipe_url": "https://github.com/pyodide/pyodide/blob/8250fdc3dc7bfd587fd8f4cc267e173095c58445/packages/pytz/meta.yaml"
+        },
+        "selected_closure_member": true
+      },
+      {
+        "name": "scikit-learn",
+        "version": "1.6.1",
+        "file_name": "scikit_learn-1.6.1-cp312-cp312-pyodide_2024_0_wasm32.whl",
+        "depends": [
+          "scipy",
+          "joblib",
+          "threadpoolctl"
+        ],
+        "imports": [
+          "sklearn"
+        ],
+        "package_type": "package",
+        "sha256": "022fe0061765894279b4ae1035e40da2cb436efa51d408f8e6214aacad0c631b",
+        "actual_sha256": "022fe0061765894279b4ae1035e40da2cb436efa51d408f8e6214aacad0c631b",
+        "hash_matches_lock": true,
+        "source_input": {
+          "component": "scikit-learn",
+          "version": "1.6.1",
+          "recipe_sha256": "b6d46c1bbb8c37e0c01e786593b6e253cb0f66e7ca4735975d86f1b6bc5a112d",
+          "url": "https://files.pythonhosted.org/packages/9e/a5/4ae3b3a0755f7b35a280ac90b28817d1f380318973cff14075ab41ef50d9/scikit_learn-1.6.1.tar.gz",
+          "expected_sha256": "b4fc2525eca2c69a59260f583c56a7557c6ccdf8deafdba6e060f94c1c59738e",
+          "verification_basis": "pinned Pyodide recipe",
+          "sha256": "b4fc2525eca2c69a59260f583c56a7557c6ccdf8deafdba6e060f94c1c59738e",
+          "bytes": 7068312,
+          "status": "downloaded and checksum verified",
+          "collected_local_file": "source-inputs/scikit-learn-1.6.1-scikit_learn-1.6.1.tar.gz",
+          "recipe_url": "https://github.com/pyodide/pyodide/blob/8250fdc3dc7bfd587fd8f4cc267e173095c58445/packages/scikit-learn/meta.yaml"
+        },
+        "selected_closure_member": true
+      },
+      {
+        "name": "scipy",
+        "version": "1.14.1",
+        "file_name": "scipy-1.14.1-cp312-cp312-pyodide_2024_0_wasm32.whl",
+        "depends": [
+          "numpy",
+          "openblas"
+        ],
+        "imports": [
+          "scipy"
+        ],
+        "package_type": "package",
+        "sha256": "997c50a61564a8ce6a56ea98a42e7f4427e5eb98475a73233e83df6a184f415c",
+        "actual_sha256": "997c50a61564a8ce6a56ea98a42e7f4427e5eb98475a73233e83df6a184f415c",
+        "hash_matches_lock": true,
+        "source_input": {
+          "component": "scipy",
+          "version": "1.14.1",
+          "recipe_sha256": "b6cf7d4da4510942b032e9ca8faaf248144bdb00af85923f33402f1a98b2a64e",
+          "url": "https://files.pythonhosted.org/packages/62/11/4d44a1f274e002784e4dbdb81e0ea96d2de2d1045b2132d5af62cc31fd28/scipy-1.14.1.tar.gz",
+          "expected_sha256": "5a275584e726026a5699459aa72f828a610821006228e841b94275c4a7c08417",
+          "verification_basis": "pinned Pyodide recipe",
+          "sha256": "5a275584e726026a5699459aa72f828a610821006228e841b94275c4a7c08417",
+          "bytes": 58620554,
+          "status": "downloaded and checksum verified",
+          "collected_local_file": "source-inputs/scipy-1.14.1-scipy-1.14.1.tar.gz",
+          "recipe_url": "https://github.com/pyodide/pyodide/blob/8250fdc3dc7bfd587fd8f4cc267e173095c58445/packages/scipy/meta.yaml"
+        },
+        "selected_closure_member": true
+      },
+      {
+        "name": "six",
+        "version": "1.16.0",
+        "file_name": "six-1.16.0-py2.py3-none-any.whl",
+        "depends": [],
+        "imports": [
+          "six"
+        ],
+        "package_type": "package",
+        "sha256": "f61235bc3a15086f0369585e5071ae9ba0bd244a111d12b37f683862e6850c0a",
+        "actual_sha256": "f61235bc3a15086f0369585e5071ae9ba0bd244a111d12b37f683862e6850c0a",
+        "hash_matches_lock": true,
+        "source_input": {
+          "component": "six",
+          "version": "1.16.0",
+          "recipe_sha256": "5de2b47aaf80c86eb99ff9fa87358e3923e15720628464f2aed689954b5266e7",
+          "url": "https://files.pythonhosted.org/packages/71/39/171f1c67cd00715f190ba0b100d606d440a28c93c7714febeca8b79af85e/six-1.16.0.tar.gz",
+          "expected_sha256": "1e61c37477a1626458e36f7b1d82aa5c9b094fa4802892072e49de9c60c4c926",
+          "verification_basis": "exact-version PyPI source distribution; Pyodide recipe consumes pure-Python wheel instead",
+          "recipe_wheel_url": "https://files.pythonhosted.org/packages/d9/5a/e7c31adbe875f2abbb91bd84cf2dc52d792b5a01506781dbcf25c91daf11/six-1.16.0-py2.py3-none-any.whl",
+          "recipe_wheel_sha256": "8abb2f1d86890a2dfb989f9a77cfcfd3e47c2a354b01111771326f8aa26e0254",
+          "sha256": "1e61c37477a1626458e36f7b1d82aa5c9b094fa4802892072e49de9c60c4c926",
+          "bytes": 34041,
+          "status": "downloaded and checksum verified",
+          "collected_local_file": "source-inputs/six-1.16.0-six-1.16.0.tar.gz",
+          "recipe_url": "https://github.com/pyodide/pyodide/blob/8250fdc3dc7bfd587fd8f4cc267e173095c58445/packages/six/meta.yaml"
+        },
+        "selected_closure_member": true
+      },
+      {
+        "name": "threadpoolctl",
+        "version": "3.5.0",
+        "file_name": "threadpoolctl-3.5.0-py3-none-any.whl",
+        "depends": [],
+        "imports": [
+          "threadpoolctl"
+        ],
+        "package_type": "package",
+        "sha256": "c463e5400524d9edd309fc100f362d774207d1e51321b92b258403ee6c3ba49c",
+        "actual_sha256": "c463e5400524d9edd309fc100f362d774207d1e51321b92b258403ee6c3ba49c",
+        "hash_matches_lock": true,
+        "source_input": {
+          "component": "threadpoolctl",
+          "version": "3.5.0",
+          "recipe_sha256": "10a2ee9e60518445ab11a4843d0fea3ef93964b6e1a282fdf6ddfa19d9f2ff10",
+          "url": "https://files.pythonhosted.org/packages/bd/55/b5148dcbf72f5cde221f8bfe3b6a540da7aa1842f6b491ad979a6c8b84af/threadpoolctl-3.5.0.tar.gz",
+          "expected_sha256": "082433502dd922bf738de0d8bcc4fdcbf0979ff44c42bd40f5af8a282f6fa107",
+          "verification_basis": "exact-version PyPI source distribution; Pyodide recipe consumes pure-Python wheel instead",
+          "recipe_wheel_url": "https://files.pythonhosted.org/packages/4b/2c/ffbf7a134b9ab11a67b0cf0726453cedd9c5043a4fe7a35d1cefa9a1bcfb/threadpoolctl-3.5.0-py3-none-any.whl",
+          "recipe_wheel_sha256": "56c1e26c150397e58c4926da8eeee87533b1e32bef131bd4bf6a2f45f3185467",
+          "sha256": "082433502dd922bf738de0d8bcc4fdcbf0979ff44c42bd40f5af8a282f6fa107",
+          "bytes": 41936,
+          "status": "downloaded and checksum verified",
+          "collected_local_file": "source-inputs/threadpoolctl-3.5.0-threadpoolctl-3.5.0.tar.gz",
+          "recipe_url": "https://github.com/pyodide/pyodide/blob/8250fdc3dc7bfd587fd8f4cc267e173095c58445/packages/threadpoolctl/meta.yaml"
+        },
+        "selected_closure_member": true
+      }
+    ],
+    "historical_unselected_payloads": [
+      {
+        "name": "cpp-exceptions-test",
+        "version": "0.1",
+        "file_name": "cpp-exceptions-test-0.1.zip",
+        "depends": [],
+        "imports": [],
+        "package_type": "shared_library",
+        "sha256": "a735e762e9aa55e6008086f70cd7c2e9dda8eb01e271277d4b2c8d1ac905133e",
+        "actual_sha256": "a735e762e9aa55e6008086f70cd7c2e9dda8eb01e271277d4b2c8d1ac905133e",
+        "hash_matches_lock": true,
+        "source_input": {
+          "component": "cpp-exceptions-test",
+          "version": "0.1",
+          "source_local_to_recipe": "src",
+          "status": "source directory present in pinned Pyodide archive",
+          "recipe_url": "https://github.com/pyodide/pyodide/blob/8250fdc3dc7bfd587fd8f4cc267e173095c58445/packages/cpp-exceptions-test/meta.yaml"
+        },
+        "selected_closure_member": false,
+        "license_assessment": "MPL-2.0 (recipe; local test source in pinned Pyodide tag)"
+      },
+      {
+        "name": "gdal",
+        "version": "3.8.3",
+        "file_name": "gdal-3.8.3.zip",
+        "depends": [
+          "geos"
+        ],
+        "imports": [],
+        "package_type": "shared_library",
+        "sha256": "cada0402f7c2dbe56c88bbf095a2847b07e35d6612836313a451adeb3ab83eac",
+        "actual_sha256": "cada0402f7c2dbe56c88bbf095a2847b07e35d6612836313a451adeb3ab83eac",
+        "hash_matches_lock": true,
+        "source_input": {
+          "component": "gdal",
+          "version": "3.8.3",
+          "recipe_sha256": "e9b42e718b39d02c274538fe761c5b88b31251963b1336cba6451155e5ce0899",
+          "url": "https://github.com/OSGeo/gdal/releases/download/v3.8.3/gdal-3.8.3.tar.gz",
+          "expected_sha256": "f7a30387a8239e9da26200f787a02136df2ee6473e86b36d05ad682761a049ea",
+          "verification_basis": "pinned Pyodide recipe",
+          "sha256": "f7a30387a8239e9da26200f787a02136df2ee6473e86b36d05ad682761a049ea",
+          "bytes": 14091779,
+          "status": "downloaded and checksum verified",
+          "collected_local_file": "source-inputs/gdal-3.8.3-gdal-3.8.3.tar.gz",
+          "recipe_url": "https://github.com/pyodide/pyodide/blob/8250fdc3dc7bfd587fd8f4cc267e173095c58445/packages/gdal/meta.yaml"
+        },
+        "selected_closure_member": false,
+        "license_assessment": "MIT-style core and bundled third-party notices (source LICENSE.TXT)"
+      },
+      {
+        "name": "geos",
+        "version": "3.12.1",
+        "file_name": "geos-3.12.1.zip",
+        "depends": [],
+        "imports": [],
+        "package_type": "shared_library",
+        "sha256": "64400007fd90cac91e3d492a989734b09000ce5864403b91e4a6ffcd71900afa",
+        "actual_sha256": "64400007fd90cac91e3d492a989734b09000ce5864403b91e4a6ffcd71900afa",
+        "hash_matches_lock": true,
+        "source_input": {
+          "component": "geos",
+          "version": "3.12.1",
+          "recipe_sha256": "44b6cf4dba7f6aa9b130256146a9ccd5c0e9f7e68e177174d7be4c325e3cd149",
+          "url": "https://github.com/libgeos/geos/releases/download/3.12.1/geos-3.12.1.tar.bz2",
+          "expected_sha256": "d6ea7e492224b51193e8244fe3ec17c4d44d0777f3c32ca4fb171140549a0d03",
+          "verification_basis": "pinned Pyodide recipe",
+          "sha256": "d6ea7e492224b51193e8244fe3ec17c4d44d0777f3c32ca4fb171140549a0d03",
+          "bytes": 6727199,
+          "status": "downloaded and checksum verified",
+          "collected_local_file": "source-inputs/geos-3.12.1-geos-3.12.1.tar.bz2",
+          "recipe_url": "https://github.com/pyodide/pyodide/blob/8250fdc3dc7bfd587fd8f4cc267e173095c58445/packages/geos/meta.yaml"
+        },
+        "selected_closure_member": false,
+        "license_assessment": "LGPL-2.1 (source COPYING)"
+      },
+      {
+        "name": "libhdf5",
+        "version": "1.12.1",
+        "file_name": "libhdf5-1.12.1.zip",
+        "depends": [],
+        "imports": [],
+        "package_type": "shared_library",
+        "sha256": "fe57d527663650699e65ee35c98072e13085eccf231bedb489388c1ca45141b4",
+        "actual_sha256": "fe57d527663650699e65ee35c98072e13085eccf231bedb489388c1ca45141b4",
+        "hash_matches_lock": true,
+        "source_input": {
+          "component": "libhdf5",
+          "version": "1.12.1",
+          "recipe_sha256": "662c89405e68f656035ae39638fd46da6755f6985d310b8b0d1de5aae4853f48",
+          "url": "https://github.com/HDFGroup/hdf5/archive/refs/tags/hdf5-1_12_1.tar.gz",
+          "expected_sha256": "e6dde173c2d243551922d23a0387a79961205b018502e6a742acb30b61bc2d5f",
+          "verification_basis": "pinned Pyodide recipe",
+          "sha256": "e6dde173c2d243551922d23a0387a79961205b018502e6a742acb30b61bc2d5f",
+          "bytes": 13922322,
+          "status": "downloaded and checksum verified",
+          "collected_local_file": "source-inputs/libhdf5-1.12.1-hdf5-1_12_1.tar.gz",
+          "recipe_url": "https://github.com/pyodide/pyodide/blob/8250fdc3dc7bfd587fd8f4cc267e173095c58445/packages/libhdf5/meta.yaml"
+        },
+        "selected_closure_member": false,
+        "license_assessment": "HDF5 BSD-style license and bundled notices (source COPYING)"
+      },
+      {
+        "name": "libheif",
+        "version": "1.12.0",
+        "file_name": "libheif-1.12.0.zip",
+        "depends": [],
+        "imports": [],
+        "package_type": "shared_library",
+        "sha256": "a24e7af8a123ecad7d446820486fb382745a522c4b48fcad340e11156e0cc92a",
+        "actual_sha256": "a24e7af8a123ecad7d446820486fb382745a522c4b48fcad340e11156e0cc92a",
+        "hash_matches_lock": true,
+        "source_input": {
+          "component": "libheif",
+          "version": "1.12.0",
+          "recipe_sha256": "360ab9cf32a63bcf89548abfb856b99f608321a916fe94c99bc3cc0253606f77",
+          "url": "https://github.com/strukturag/libheif/releases/download/v1.17.3/libheif-1.17.3.tar.gz",
+          "expected_sha256": "8d5b6292e7931324f81f871f250ecbb9f874aa3c66b4f6f35ceb0bf3163b53ea",
+          "verification_basis": "pinned Pyodide recipe",
+          "sha256": "8d5b6292e7931324f81f871f250ecbb9f874aa3c66b4f6f35ceb0bf3163b53ea",
+          "bytes": 1431554,
+          "status": "downloaded and checksum verified",
+          "collected_local_file": "source-inputs/libheif-1.12.0-libheif-1.17.3.tar.gz",
+          "recipe_url": "https://github.com/pyodide/pyodide/blob/8250fdc3dc7bfd587fd8f4cc267e173095c58445/packages/libheif/meta.yaml"
+        },
+        "selected_closure_member": false,
+        "license_assessment": "LGPL-3.0 library; sample applications MIT (source COPYING)",
+        "source_version_caveat": "Pinned Pyodide package/lock says 1.12.0, but its checksum-verified recipe source is libheif1.17.3; preserve both values rather than treating filename as source identity."
+      },
+      {
+        "name": "libmagic",
+        "version": "5.42",
+        "file_name": "libmagic-5.42.zip",
+        "depends": [],
+        "imports": [],
+        "package_type": "shared_library",
+        "sha256": "604ecf7fc42917b1c0c0c920ae0629427c48359b9afd25d928487bcf4ac44f83",
+        "actual_sha256": "604ecf7fc42917b1c0c0c920ae0629427c48359b9afd25d928487bcf4ac44f83",
+        "hash_matches_lock": true,
+        "source_input": {
+          "component": "libmagic",
+          "version": "5.42",
+          "recipe_sha256": "76bc9703fa5e3e38bbfc51ad7cdcadc8461bce45ba35795d38d0e26599493d0b",
+          "url": "https://github.com/file/file/archive/refs/tags/FILE5_42.tar.gz",
+          "expected_sha256": "d7374d06451154a628831df58e835fa3263825d0ad593df0fb8a911418d27863",
+          "verification_basis": "pinned Pyodide recipe",
+          "sha256": "d7374d06451154a628831df58e835fa3263825d0ad593df0fb8a911418d27863",
+          "bytes": 759130,
+          "status": "downloaded and checksum verified",
+          "collected_local_file": "source-inputs/libmagic-5.42-FILE5_42.tar.gz",
+          "recipe_url": "https://github.com/pyodide/pyodide/blob/8250fdc3dc7bfd587fd8f4cc267e173095c58445/packages/libmagic/meta.yaml"
+        },
+        "selected_closure_member": false,
+        "license_assessment": "BSD-style file utility license (source COPYING)"
+      },
+      {
+        "name": "openssl",
+        "version": "1.1.1w",
+        "file_name": "openssl-1.1.1w.zip",
+        "depends": [],
+        "imports": [],
+        "package_type": "shared_library",
+        "sha256": "20b92cd9b9adb1a739af9f93772b60c084203aacf63ae1b2353951bd80c97f08",
+        "actual_sha256": "20b92cd9b9adb1a739af9f93772b60c084203aacf63ae1b2353951bd80c97f08",
+        "hash_matches_lock": true,
+        "source_input": {
+          "component": "openssl",
+          "version": "1.1.1w",
+          "recipe_sha256": "2399198353c15d6dae2cfd8d522043c8749ebd2c3682f56714bccd3fec9d1279",
+          "url": "https://www.openssl.org/source/openssl-1.1.1w.tar.gz",
+          "expected_sha256": "cf3098950cb4d853ad95c0841f1f9c6d3dc102dccfcacd521d93925208b76ac8",
+          "verification_basis": "pinned Pyodide recipe",
+          "sha256": "cf3098950cb4d853ad95c0841f1f9c6d3dc102dccfcacd521d93925208b76ac8",
+          "bytes": 9893384,
+          "status": "downloaded and checksum verified",
+          "collected_local_file": "source-inputs/openssl-1.1.1w-openssl-1.1.1w.tar.gz",
+          "recipe_url": "https://github.com/pyodide/pyodide/blob/8250fdc3dc7bfd587fd8f4cc267e173095c58445/packages/openssl/meta.yaml"
+        },
+        "selected_closure_member": false,
+        "license_assessment": "OpenSSL License AND original SSLeay License (source LICENSE; recipe Apache-2.0 label is inaccurate for 1.1.1w)"
+      },
+      {
+        "name": "sharedlib-test",
+        "version": "1.0",
+        "file_name": "sharedlib-test-1.0.zip",
+        "depends": [],
+        "imports": [],
+        "package_type": "shared_library",
+        "sha256": "8a139430acb582c33b14822f8f40c7f827f4d39b685696d7f52819fc6a72e2a8",
+        "actual_sha256": "8a139430acb582c33b14822f8f40c7f827f4d39b685696d7f52819fc6a72e2a8",
+        "hash_matches_lock": true,
+        "source_input": {
+          "component": "sharedlib-test",
+          "version": "1.0",
+          "source_local_to_recipe": "src",
+          "status": "source directory present in pinned Pyodide archive",
+          "recipe_url": "https://github.com/pyodide/pyodide/blob/8250fdc3dc7bfd587fd8f4cc267e173095c58445/packages/sharedlib-test/meta.yaml"
+        },
+        "selected_closure_member": false,
+        "license_assessment": "MPL-2.0 (recipe; local test source in pinned Pyodide tag)"
+      },
+      {
+        "name": "suitesparse",
+        "version": "5.11.0",
+        "file_name": "suitesparse-5.11.0.zip",
+        "depends": [
+          "openblas"
+        ],
+        "imports": [],
+        "package_type": "shared_library",
+        "sha256": "5119c1c844aa457387eb24656c1f5804de6535509d944e9693f9b577ba352b29",
+        "actual_sha256": "5119c1c844aa457387eb24656c1f5804de6535509d944e9693f9b577ba352b29",
+        "hash_matches_lock": true,
+        "source_input": {
+          "component": "suitesparse",
+          "version": "5.11.0",
+          "recipe_sha256": "21c3c7fe300473b3bf131157dc84e7395ee42ddcc95b2c81897762425de4c4fe",
+          "url": "https://github.com/DrTimothyAldenDavis/SuiteSparse/archive/refs/tags/v5.11.0.tar.gz",
+          "expected_sha256": "fdd957ed06019465f7de73ce931afaf5d40e96e14ae57d91f60868b8c123c4c8",
+          "verification_basis": "pinned Pyodide recipe",
+          "sha256": "fdd957ed06019465f7de73ce931afaf5d40e96e14ae57d91f60868b8c123c4c8",
+          "bytes": 64555786,
+          "status": "downloaded and checksum verified",
+          "collected_local_file": "source-inputs/suitesparse-5.11.0-v5.11.0.tar.gz",
+          "recipe_url": "https://github.com/pyodide/pyodide/blob/8250fdc3dc7bfd587fd8f4cc267e173095c58445/packages/suitesparse/meta.yaml"
+        },
+        "selected_closure_member": false,
+        "license_assessment": "Mixed component licenses, including GPL/LGPL/permissive (source LICENSE.txt; not a single permissive license)"
+      }
+    ],
+    "historical_unselected_payload_bytes": 38201437,
+    "filter_status": "Source repair and 8 focused miniature-archive/publication tests pass. Full real-asset preparation/browser/APK validation is a separate parent-owned step; this manifest does not assert it has run."
+  },
+  "webr_support_recipe_inventory": [
+    {
+      "name": "cacert",
+      "recipe_directory_url": "https://github.com/r-wasm/webr/tree/f116a5e60e220182d09ac015837c88c454c663c5/libs/recipes/cacert",
+      "recipe_files": [
+        {
+          "path": "libs/recipes/cacert/rules.mk",
+          "sha256": "5168c7dd3ae7bc010dad226d31a9b17b9b3f9ebf8ace6fef8c43fb5463810e4a"
+        },
+        {
+          "path": "libs/recipes/cacert/targets.mk",
+          "sha256": "b90cc847e30daf8b43f055399aba3e1f3bd4e386981566ad9355c6fb81a21af6"
+        }
+      ]
+    },
+    {
+      "name": "cairo",
+      "recipe_directory_url": "https://github.com/r-wasm/webr/tree/f116a5e60e220182d09ac015837c88c454c663c5/libs/recipes/cairo",
+      "recipe_files": [
+        {
+          "path": "libs/recipes/cairo/rules.mk",
+          "sha256": "cd0f68926e787d110009c9c4e3641286b5deafb69b14b79c4f43aabf39fad3fa"
+        },
+        {
+          "path": "libs/recipes/cairo/targets.mk",
+          "sha256": "88875b18e279308e5b8eec7447889a11e6deb4113d6eb29e9cfe2479da94d5c8"
+        }
+      ]
+    },
+    {
+      "name": "curl",
+      "recipe_directory_url": "https://github.com/r-wasm/webr/tree/f116a5e60e220182d09ac015837c88c454c663c5/libs/recipes/curl",
+      "recipe_files": [
+        {
+          "path": "libs/recipes/curl/rules.mk",
+          "sha256": "a94581d9449459259f309fd9b69de811e467a70ca681e9fe5e60885fb8f35864"
+        },
+        {
+          "path": "libs/recipes/curl/targets.mk",
+          "sha256": "a8a53119307b814d9530d394749a512fdccb4cc146811905b02bbcf822753cbb"
+        }
+      ]
+    },
+    {
+      "name": "expat",
+      "recipe_directory_url": "https://github.com/r-wasm/webr/tree/f116a5e60e220182d09ac015837c88c454c663c5/libs/recipes/expat",
+      "recipe_files": [
+        {
+          "path": "libs/recipes/expat/rules.mk",
+          "sha256": "2864f0b7a87c4b4b17d40d143dee78f7ea2349071e8ec9d4898397d2e84e1e2b"
+        },
+        {
+          "path": "libs/recipes/expat/targets.mk",
+          "sha256": "c93b4a9eb5332f27015f2f3521764e23529211f5e0abb3d6bde33b4d692c3de7"
+        }
+      ]
+    },
+    {
+      "name": "fftw3",
+      "recipe_directory_url": "https://github.com/r-wasm/webr/tree/f116a5e60e220182d09ac015837c88c454c663c5/libs/recipes/fftw3",
+      "recipe_files": [
+        {
+          "path": "libs/recipes/fftw3/rules.mk",
+          "sha256": "fdee03e701d4e6a3b2a0ff54bbceb08439e474540eb49613ac44e5871ad94a86"
+        },
+        {
+          "path": "libs/recipes/fftw3/targets.mk",
+          "sha256": "9bef28e7efd1cdb5b8224b9aca993c93fbd31e8b242fe45e0ddd304794082a89"
+        }
+      ]
+    },
+    {
+      "name": "fontconfig",
+      "recipe_directory_url": "https://github.com/r-wasm/webr/tree/f116a5e60e220182d09ac015837c88c454c663c5/libs/recipes/fontconfig",
+      "recipe_files": [
+        {
+          "path": "libs/recipes/fontconfig/rules.mk",
+          "sha256": "179b63fb3b9035c1881f564385f146949dc14f7b3b3b61d811079339b92c3b10"
+        },
+        {
+          "path": "libs/recipes/fontconfig/targets.mk",
+          "sha256": "e2401a931d16dfdc246fa6b5693be2b23cb986f0a70097c54bdd056e7b0eaab7"
+        }
+      ]
+    },
+    {
+      "name": "fonts",
+      "recipe_directory_url": "https://github.com/r-wasm/webr/tree/f116a5e60e220182d09ac015837c88c454c663c5/libs/recipes/fonts",
+      "recipe_files": [
+        {
+          "path": "libs/recipes/fonts/fonts.conf",
+          "sha256": "a93efbf9eec83d72a463f1d52f54043a8afa6ae7cc05609deda73232525e7bc0"
+        },
+        {
+          "path": "libs/recipes/fonts/rules.mk",
+          "sha256": "c09ef9fc404cd2d7ce66c0c078df43dc4273782fb2e431113d088e133753155e"
+        },
+        {
+          "path": "libs/recipes/fonts/targets.mk",
+          "sha256": "dd65e838b5bc20b34bf63eeb7d3bf28cf8fcb48a137cf1ede3352d4f13ebb0fb"
+        }
+      ]
+    },
+    {
+      "name": "freetype2",
+      "recipe_directory_url": "https://github.com/r-wasm/webr/tree/f116a5e60e220182d09ac015837c88c454c663c5/libs/recipes/freetype2",
+      "recipe_files": [
+        {
+          "path": "libs/recipes/freetype2/freetype2.pc",
+          "sha256": "03f797fe05083a990233a25b49fd8d27d880b4a17afbd9eea2f47817b5e7c454"
+        }
+      ]
+    },
+    {
+      "name": "fribidi",
+      "recipe_directory_url": "https://github.com/r-wasm/webr/tree/f116a5e60e220182d09ac015837c88c454c663c5/libs/recipes/fribidi",
+      "recipe_files": [
+        {
+          "path": "libs/recipes/fribidi/rules.mk",
+          "sha256": "abc3661a7d3779dea700a1ea28be5b608b17a9320a376b72f0b06e81e0ac3dde"
+        },
+        {
+          "path": "libs/recipes/fribidi/targets.mk",
+          "sha256": "92f6d272f6299e48ea9570252b13ebccd8f771f9f615f6fff3abca59af593795"
+        }
+      ]
+    },
+    {
+      "name": "gdal",
+      "recipe_directory_url": "https://github.com/r-wasm/webr/tree/f116a5e60e220182d09ac015837c88c454c663c5/libs/recipes/gdal",
+      "recipe_files": [
+        {
+          "path": "libs/recipes/gdal/rules.mk",
+          "sha256": "613704ef6a0f025621a7e1f24a265eabd646d7143cd46ec9be6b8df1875b535b"
+        },
+        {
+          "path": "libs/recipes/gdal/targets.mk",
+          "sha256": "ac4765f6b2a2ab7f240057869834012b677647e8562b88a864e6729d8e6768fb"
+        }
+      ]
+    },
+    {
+      "name": "geos",
+      "recipe_directory_url": "https://github.com/r-wasm/webr/tree/f116a5e60e220182d09ac015837c88c454c663c5/libs/recipes/geos",
+      "recipe_files": [
+        {
+          "path": "libs/recipes/geos/rules.mk",
+          "sha256": "1bd9586efa2a0f7ae5d4870bc13fb5279f3be2a6277ba333bbff3a55fc3e07aa"
+        },
+        {
+          "path": "libs/recipes/geos/targets.mk",
+          "sha256": "9a06f65fa2a0700aa81088c5a271fcdbea4604d6e9366ca952b56194307dda62"
+        }
+      ]
+    },
+    {
+      "name": "glib",
+      "recipe_directory_url": "https://github.com/r-wasm/webr/tree/f116a5e60e220182d09ac015837c88c454c663c5/libs/recipes/glib",
+      "recipe_files": [
+        {
+          "path": "libs/recipes/glib/rules.mk",
+          "sha256": "d2c4fd5f9a220d3fe69b3ba4d1fd1e11a725e109af89bbc9b72cc47c39e8d6ae"
+        },
+        {
+          "path": "libs/recipes/glib/targets.mk",
+          "sha256": "fec17ad45bacb50803be49a2906c545a89f212a34b242d98ddbe25c8b4c8947f"
+        }
+      ]
+    },
+    {
+      "name": "glpk",
+      "recipe_directory_url": "https://github.com/r-wasm/webr/tree/f116a5e60e220182d09ac015837c88c454c663c5/libs/recipes/glpk",
+      "recipe_files": [
+        {
+          "path": "libs/recipes/glpk/rules.mk",
+          "sha256": "8ac04bab68a43153c44f7c9e3d39203309121e34a7d384997de7b0120ec11a5f"
+        },
+        {
+          "path": "libs/recipes/glpk/targets.mk",
+          "sha256": "96d439bc2a736a3fef2fb4fd774131ee557d03c3d5369413d2a4aedd1a605070"
+        }
+      ]
+    },
+    {
+      "name": "gmp",
+      "recipe_directory_url": "https://github.com/r-wasm/webr/tree/f116a5e60e220182d09ac015837c88c454c663c5/libs/recipes/gmp",
+      "recipe_files": [
+        {
+          "path": "libs/recipes/gmp/rules.mk",
+          "sha256": "d2ea17f7d18905c396a925756531dac5504848f78b88c894e932eb78fb5793b8"
+        },
+        {
+          "path": "libs/recipes/gmp/targets.mk",
+          "sha256": "cd0571e83c949a11bf86f3fda3415ddf9c017b2f3d0f9963f1b281cc92769a99"
+        }
+      ]
+    },
+    {
+      "name": "gsl",
+      "recipe_directory_url": "https://github.com/r-wasm/webr/tree/f116a5e60e220182d09ac015837c88c454c663c5/libs/recipes/gsl",
+      "recipe_files": [
+        {
+          "path": "libs/recipes/gsl/rules.mk",
+          "sha256": "fe670667ae96d198dc19b88b03c803a3e1e02df880cbc3497510b58add5bf363"
+        },
+        {
+          "path": "libs/recipes/gsl/targets.mk",
+          "sha256": "45c2e1bff78bab464c2ad47af89d81171870f65c885d8885c6439ef3166d4bc7"
+        }
+      ]
+    },
+    {
+      "name": "harfbuzz",
+      "recipe_directory_url": "https://github.com/r-wasm/webr/tree/f116a5e60e220182d09ac015837c88c454c663c5/libs/recipes/harfbuzz",
+      "recipe_files": [
+        {
+          "path": "libs/recipes/harfbuzz/rules.mk",
+          "sha256": "a263ccb004d9b7b1399665678890585cf6299400048c9602e6de1435dd1fd330"
+        },
+        {
+          "path": "libs/recipes/harfbuzz/targets.mk",
+          "sha256": "39b75cfe6a242c708d3f6968864eccf3fd65f3451680e79adb2a164c7e5178e1"
+        }
+      ]
+    },
+    {
+      "name": "hdf5",
+      "recipe_directory_url": "https://github.com/r-wasm/webr/tree/f116a5e60e220182d09ac015837c88c454c663c5/libs/recipes/hdf5",
+      "recipe_files": [
+        {
+          "path": "libs/recipes/hdf5/rules.mk",
+          "sha256": "2121c89226ec062a3e2ed6d4c2aab9485293eec2776be09758e425f02ad0d062"
+        },
+        {
+          "path": "libs/recipes/hdf5/targets.mk",
+          "sha256": "390c11fc3ce7b83b0fa979e1bed4486f809aa1efbc3d4d024d8d595cb62579f2"
+        }
+      ]
+    },
+    {
+      "name": "imagemagick",
+      "recipe_directory_url": "https://github.com/r-wasm/webr/tree/f116a5e60e220182d09ac015837c88c454c663c5/libs/recipes/imagemagick",
+      "recipe_files": [
+        {
+          "path": "libs/recipes/imagemagick/rules.mk",
+          "sha256": "03e18dd790d4dfc1845be0700f306a59e0e0d9f7dea7a64a77151eb1ace74488"
+        },
+        {
+          "path": "libs/recipes/imagemagick/targets.mk",
+          "sha256": "5a552e26f65138043ccae6dae8c3122d26c3b095a833d9a3a10288272728c818"
+        }
+      ]
+    },
+    {
+      "name": "jpeg",
+      "recipe_directory_url": "https://github.com/r-wasm/webr/tree/f116a5e60e220182d09ac015837c88c454c663c5/libs/recipes/jpeg",
+      "recipe_files": [
+        {
+          "path": "libs/recipes/jpeg/rules.mk",
+          "sha256": "9eee423d84e744d7b2c2fd6f2e75d2a300158a54f2dac792cacf7deb574282f4"
+        },
+        {
+          "path": "libs/recipes/jpeg/targets.mk",
+          "sha256": "43fb756bf5b97f581415f051d1f1c09f27726f70302c81c996dd19927feb88ff"
+        }
+      ]
+    },
+    {
+      "name": "libaec",
+      "recipe_directory_url": "https://github.com/r-wasm/webr/tree/f116a5e60e220182d09ac015837c88c454c663c5/libs/recipes/libaec",
+      "recipe_files": [
+        {
+          "path": "libs/recipes/libaec/rules.mk",
+          "sha256": "44c86a9c53ba6dce7ad9a6de586be2b0c757a2d4d34c1c933f16904d27430a3e"
+        },
+        {
+          "path": "libs/recipes/libaec/targets.mk",
+          "sha256": "f55c30c70f69f839f7c8b18a97dbd9a7c2fb6250f4fdec2ef4635b3ddb8f3cc2"
+        }
+      ]
+    },
+    {
+      "name": "libarchive",
+      "recipe_directory_url": "https://github.com/r-wasm/webr/tree/f116a5e60e220182d09ac015837c88c454c663c5/libs/recipes/libarchive",
+      "recipe_files": [
+        {
+          "path": "libs/recipes/libarchive/rules.mk",
+          "sha256": "c0cee039f5b1cb810d62612520becf2e8c928abd0e209d3c314b8a85950ffe9b"
+        },
+        {
+          "path": "libs/recipes/libarchive/targets.mk",
+          "sha256": "3427bfe018931f466e5f5548548e94a684e255451ee506329b360ac932829387"
+        }
+      ]
+    },
+    {
+      "name": "libgit2",
+      "recipe_directory_url": "https://github.com/r-wasm/webr/tree/f116a5e60e220182d09ac015837c88c454c663c5/libs/recipes/libgit2",
+      "recipe_files": [
+        {
+          "path": "libs/recipes/libgit2/rules.mk",
+          "sha256": "73f7277504f2266757a30f54042d76d84cb389c6206322ebb37f22a4bbd23b80"
+        },
+        {
+          "path": "libs/recipes/libgit2/targets.mk",
+          "sha256": "f4110e9a73ccca0399499dd86d8ba272439d4bd4d3efcc3638e192ae0ad47ef4"
+        }
+      ]
+    },
+    {
+      "name": "libuv",
+      "recipe_directory_url": "https://github.com/r-wasm/webr/tree/f116a5e60e220182d09ac015837c88c454c663c5/libs/recipes/libuv",
+      "recipe_files": [
+        {
+          "path": "libs/recipes/libuv/rules.mk",
+          "sha256": "ddd6fc514374e3654f8971981727741a94d582fdc5325d8ff86cfe2cefe4f626"
+        },
+        {
+          "path": "libs/recipes/libuv/targets.mk",
+          "sha256": "fbc92ab153f2e81870b7a02273ce0012ba7c35a141acccedb53c083d2133a097"
+        }
+      ]
+    },
+    {
+      "name": "lz4",
+      "recipe_directory_url": "https://github.com/r-wasm/webr/tree/f116a5e60e220182d09ac015837c88c454c663c5/libs/recipes/lz4",
+      "recipe_files": [
+        {
+          "path": "libs/recipes/lz4/rules.mk",
+          "sha256": "222f2ce39c0744cfcda4e3d6f5d47ec02a52bac10ab13950a11e5be575ce2ce2"
+        },
+        {
+          "path": "libs/recipes/lz4/targets.mk",
+          "sha256": "123185fb2e100d60343e360385ee03f2a2c55d86b963ed1748a37641df383e9f"
+        }
+      ]
+    },
+    {
+      "name": "mpfr",
+      "recipe_directory_url": "https://github.com/r-wasm/webr/tree/f116a5e60e220182d09ac015837c88c454c663c5/libs/recipes/mpfr",
+      "recipe_files": [
+        {
+          "path": "libs/recipes/mpfr/rules.mk",
+          "sha256": "2535418f8cf021c27a386ed684632b80015d340b44719e71b2825751a261b06b"
+        },
+        {
+          "path": "libs/recipes/mpfr/targets.mk",
+          "sha256": "3029c56d5eefc3ebb06bb1553527f3cf5085775671aa462fcf21c3b9063bd288"
+        }
+      ]
+    },
+    {
+      "name": "nghttp2",
+      "recipe_directory_url": "https://github.com/r-wasm/webr/tree/f116a5e60e220182d09ac015837c88c454c663c5/libs/recipes/nghttp2",
+      "recipe_files": [
+        {
+          "path": "libs/recipes/nghttp2/rules.mk",
+          "sha256": "6aabfe0a66b8703c74637a8eed68c3cda647327c71c47a7d833de275f53a2455"
+        },
+        {
+          "path": "libs/recipes/nghttp2/targets.mk",
+          "sha256": "41336c11dfd34c8f9ec4149c6b44036e836a7416af26600f83d0302deca8daf8"
+        }
+      ]
+    },
+    {
+      "name": "openssl",
+      "recipe_directory_url": "https://github.com/r-wasm/webr/tree/f116a5e60e220182d09ac015837c88c454c663c5/libs/recipes/openssl",
+      "recipe_files": [
+        {
+          "path": "libs/recipes/openssl/rules.mk",
+          "sha256": "74d491204ac86145e0a65a7726ef64d5c41ce3a09bc460109ece60f77c750f34"
+        },
+        {
+          "path": "libs/recipes/openssl/targets.mk",
+          "sha256": "f14489962e9a71da2513c6b88af686d811a54ef8f16722a44eda8564ac58322e"
+        }
+      ]
+    },
+    {
+      "name": "pango",
+      "recipe_directory_url": "https://github.com/r-wasm/webr/tree/f116a5e60e220182d09ac015837c88c454c663c5/libs/recipes/pango",
+      "recipe_files": [
+        {
+          "path": "libs/recipes/pango/rules.mk",
+          "sha256": "b18e77e6f091477f6ec41a8dbd5bc82606caa9345c2cc384dee18a8803214161"
+        },
+        {
+          "path": "libs/recipes/pango/targets.mk",
+          "sha256": "10380bd117edcc41f6ef5387326b8858e181a9df7ffbb165ae378842c957bbe6"
+        }
+      ]
+    },
+    {
+      "name": "pcre",
+      "recipe_directory_url": "https://github.com/r-wasm/webr/tree/f116a5e60e220182d09ac015837c88c454c663c5/libs/recipes/pcre",
+      "recipe_files": [
+        {
+          "path": "libs/recipes/pcre/rules.mk",
+          "sha256": "4c6152eac8d528586bdd2fa5f1ca2901994de14d3c92c091a33aa767559250e2"
+        },
+        {
+          "path": "libs/recipes/pcre/targets.mk",
+          "sha256": "637c58127cc7012b46e16d97a85012538d98dc7960c356e3a604cdb6dbf738e4"
+        }
+      ]
+    },
+    {
+      "name": "pixman",
+      "recipe_directory_url": "https://github.com/r-wasm/webr/tree/f116a5e60e220182d09ac015837c88c454c663c5/libs/recipes/pixman",
+      "recipe_files": [
+        {
+          "path": "libs/recipes/pixman/rules.mk",
+          "sha256": "5849ddd5706d3e88c43179e1bc64790b066b12a602fe8180982bcaeb23d1700d"
+        },
+        {
+          "path": "libs/recipes/pixman/targets.mk",
+          "sha256": "f179359b00d5831e8b226109c14cf28bb0ecf4398d0fb071c6288ed8441dc371"
+        }
+      ]
+    },
+    {
+      "name": "png",
+      "recipe_directory_url": "https://github.com/r-wasm/webr/tree/f116a5e60e220182d09ac015837c88c454c663c5/libs/recipes/png",
+      "recipe_files": [
+        {
+          "path": "libs/recipes/png/rules.mk",
+          "sha256": "6aa21dc0c11b51620fc39f00d5cd3dc471edf1839e0531fbc9c61e20287c6ac0"
+        },
+        {
+          "path": "libs/recipes/png/targets.mk",
+          "sha256": "a66bc3f9030e202ec65729101ac25c451db7356c6b1361649fe1477fbb8faca9"
+        }
+      ]
+    },
+    {
+      "name": "poppler",
+      "recipe_directory_url": "https://github.com/r-wasm/webr/tree/f116a5e60e220182d09ac015837c88c454c663c5/libs/recipes/poppler",
+      "recipe_files": [
+        {
+          "path": "libs/recipes/poppler/rules.mk",
+          "sha256": "5dd485dca1a6296cfc7acb98e380dacae027abcf17d02150fb0bc8a68c020aaf"
+        },
+        {
+          "path": "libs/recipes/poppler/targets.mk",
+          "sha256": "e82845b7264b060999ab2f57d3909587aa10ec85718370b38c6ec2c6cce4ab79"
+        }
+      ]
+    },
+    {
+      "name": "proj",
+      "recipe_directory_url": "https://github.com/r-wasm/webr/tree/f116a5e60e220182d09ac015837c88c454c663c5/libs/recipes/proj",
+      "recipe_files": [
+        {
+          "path": "libs/recipes/proj/rules.mk",
+          "sha256": "2640e1226706b911944700cc138bf721c7b90cdd369a4cb42195af16ec580378"
+        },
+        {
+          "path": "libs/recipes/proj/targets.mk",
+          "sha256": "8a00389652b9c31b1137191f5920cb46d364bdf48a1507ec925a0e3f03387920"
+        }
+      ]
+    },
+    {
+      "name": "sodium",
+      "recipe_directory_url": "https://github.com/r-wasm/webr/tree/f116a5e60e220182d09ac015837c88c454c663c5/libs/recipes/sodium",
+      "recipe_files": [
+        {
+          "path": "libs/recipes/sodium/rules.mk",
+          "sha256": "615907d1429a538a0b62b161007695c8855dc4552e0c217ca4e6c5771b1c8cd7"
+        },
+        {
+          "path": "libs/recipes/sodium/targets.mk",
+          "sha256": "cf84654aa36d759441676f76a963571620dd266a4d40a8e9914ec0dc11d9f125"
+        }
+      ]
+    },
+    {
+      "name": "sqlite3",
+      "recipe_directory_url": "https://github.com/r-wasm/webr/tree/f116a5e60e220182d09ac015837c88c454c663c5/libs/recipes/sqlite3",
+      "recipe_files": [
+        {
+          "path": "libs/recipes/sqlite3/rules.mk",
+          "sha256": "34b413ec07107e564d8fd89f6a89c6fb43133050aebd40af3f5d3ad537f1ec2a"
+        },
+        {
+          "path": "libs/recipes/sqlite3/targets.mk",
+          "sha256": "14f0ce6b3d01f3dfc10ba00a8e5368773756cee65cc798db8ce324bc888bf6e4"
+        }
+      ]
+    },
+    {
+      "name": "tiff",
+      "recipe_directory_url": "https://github.com/r-wasm/webr/tree/f116a5e60e220182d09ac015837c88c454c663c5/libs/recipes/tiff",
+      "recipe_files": [
+        {
+          "path": "libs/recipes/tiff/rules.mk",
+          "sha256": "8052675d8830e297e268262dc9712e2496230f46fc608927e0532965bebbf558"
+        },
+        {
+          "path": "libs/recipes/tiff/targets.mk",
+          "sha256": "2c90762df7ceb0dff7ad8b0059ea3cd23989886a15a8f4a0dfdf9b61a0d8573a"
+        }
+      ]
+    },
+    {
+      "name": "udunits",
+      "recipe_directory_url": "https://github.com/r-wasm/webr/tree/f116a5e60e220182d09ac015837c88c454c663c5/libs/recipes/udunits",
+      "recipe_files": [
+        {
+          "path": "libs/recipes/udunits/rules.mk",
+          "sha256": "57d89d8d1a58ae4461faba38f9edce28ddba97b2440bd9296eb99f0b2546104d"
+        },
+        {
+          "path": "libs/recipes/udunits/targets.mk",
+          "sha256": "da7a077eec5a1ec5ddefe1dbae5618b931be3b0235e7623759648b4d371e6da8"
+        }
+      ]
+    },
+    {
+      "name": "webp",
+      "recipe_directory_url": "https://github.com/r-wasm/webr/tree/f116a5e60e220182d09ac015837c88c454c663c5/libs/recipes/webp",
+      "recipe_files": [
+        {
+          "path": "libs/recipes/webp/rules.mk",
+          "sha256": "7f19941b2439c0898dc0bcf75b3f1d89c2411aa5beff06bd266962604e932b46"
+        },
+        {
+          "path": "libs/recipes/webp/targets.mk",
+          "sha256": "6784814ba2557d1f557e4c30c23c8bf1d38d8fc8b300988779ae8414b18738b3"
+        }
+      ]
+    },
+    {
+      "name": "xml2",
+      "recipe_directory_url": "https://github.com/r-wasm/webr/tree/f116a5e60e220182d09ac015837c88c454c663c5/libs/recipes/xml2",
+      "recipe_files": [
+        {
+          "path": "libs/recipes/xml2/rules.mk",
+          "sha256": "df7d9068042ab3ed9883fe3bbb8990ffe819ed4beb1239327c002041aac8b74d"
+        },
+        {
+          "path": "libs/recipes/xml2/targets.mk",
+          "sha256": "42f4a6577ae460b2395110b3356c7955fcd8174ca50d12463c132515e6ddaa39"
+        }
+      ]
+    },
+    {
+      "name": "xz",
+      "recipe_directory_url": "https://github.com/r-wasm/webr/tree/f116a5e60e220182d09ac015837c88c454c663c5/libs/recipes/xz",
+      "recipe_files": [
+        {
+          "path": "libs/recipes/xz/rules.mk",
+          "sha256": "770b10c5a62aba7ec53ea9df7d7fadb266c60c052a5b0d07f24048f7d356a139"
+        },
+        {
+          "path": "libs/recipes/xz/targets.mk",
+          "sha256": "53ef9b283ac32c803213a9867759eb86a9404e9ae8d69af200c3fdce6f60827a"
+        }
+      ]
+    },
+    {
+      "name": "zlib",
+      "recipe_directory_url": "https://github.com/r-wasm/webr/tree/f116a5e60e220182d09ac015837c88c454c663c5/libs/recipes/zlib",
+      "recipe_files": [
+        {
+          "path": "libs/recipes/zlib/zlib.pc",
+          "sha256": "4dbfeb2a8d4711b2f9e63f9d9b402f0acded46e2d319099015e3d4362f775eaa"
+        }
+      ]
+    },
+    {
+      "name": "zstd",
+      "recipe_directory_url": "https://github.com/r-wasm/webr/tree/f116a5e60e220182d09ac015837c88c454c663c5/libs/recipes/zstd",
+      "recipe_files": [
+        {
+          "path": "libs/recipes/zstd/rules.mk",
+          "sha256": "2ded09e4694a7b62b18d4439a2746f2966288e9113a4c925729c1c465ae454c2"
+        },
+        {
+          "path": "libs/recipes/zstd/targets.mk",
+          "sha256": "8a5e07bc8a11e73a733744202c32cc92b81b7614d80f61b7d138230a864d5b6f"
+        }
+      ]
+    }
+  ],
+  "unresolved": [
+    {
+      "id": "r-image-fork-revisions",
+      "scope": "Vitrine R package image",
+      "status": "unresolved",
+      "detail": "httpuv 1.6.6.9000, later 1.4.2.9000 and sass 0.4.10.9000 installed descriptions do not identify their source commit/patch provenance. Version labels alone do not bind a candidate source to these compiled packages."
+    },
+    {
+      "id": "r-image-moving-build-inputs",
+      "scope": "Vitrine R package image",
+      "status": "unresolved",
+      "detail": "The historical image workflow defaults to ghcr.io/r-wasm/webr:main. WebR Dockerfile installs r-wasm/rwasm and r-lib/pak@main and uses the Posit Package Manager latest repository. No captured image digest, dependency source lock or build transaction binds all 36 packages to their complete preferred sources. The historical successful run logs endpoint returned HTTP410 on 2 November 2026."
+    },
+    {
+      "id": "webr-toolchain-and-libraries",
+      "scope": "Both applications WebR 0.6.0",
+      "status": "unresolved",
+      "detail": "The source tag, R 4.6.0 source/patches, 42 support-library recipe directories and Flang gitlink are collected. Exact release container/toolchain source binding is not established: deploy uses flang-wasm:main and the collected Flang Makefile clones r-wasm/llvm-project branch wasm without a commit pin. Release notes report Emscripten 4.0.8, while the gitlinked Flang Dockerfile defaults to 5.0.7. Both observed WASM binaries omit producer metadata, so the release toolchain cannot be inferred from those sections. Do not silently choose one version or claim a verified rebuild."
+    },
+    {
+      "id": "all-transitive-preferred-sources",
+      "scope": "Both applications",
+      "status": "incomplete",
+      "detail": "Downloaded archives and package recipes are groundwork. A complete source/build/install dependency closure, including WebR support libraries/toolchain, JavaScript dependencies and font components, has not been assembled and rebuilt. Matching-version R tarballs and exact-version PyPI sdists are candidates, not proof of bit-identical compiled provenance."
+    },
+    {
+      "id": "durable-source-delivery",
+      "scope": "Binary distribution",
+      "status": "incomplete",
+      "detail": "Archives and detailed receipts are local evidence. This portable manifest provides canonical URLs and hashes; no complete corresponding-source bundle has been published beside APK downloads. Automatic APK uploads remain paused."
+    }
+  ],
+  "next_actions": [
+    "For the existing R image, obtain exact fork commits/patches plus historical container/toolchain/dependency-source provenance, or replace it with a newly built image whose complete inputs are pinned and archived. Do not equate matching version strings with that binding.",
+    "Complete and retain the full runtime/source/build-input closure, document exact rebuild/install commands, and validate the resulting runtime behavior; bit-for-bit reproducibility is a separate claim requiring comparison.",
+    "Publish durable corresponding-source downloads and the verified binary-to-source manifest beside any resumed binary uploads. Preserve existing distribution evidence and the upload gate until the delivery criterion is satisfied."
+  ]
+}
