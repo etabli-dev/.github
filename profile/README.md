@@ -8,18 +8,18 @@
 
 | Project | Current purpose | Implementation and distribution |
 |---|---|---|
-| [Atelier](https://github.com/etabli-dev/etabli-atelier) | Local R/WebR and Python/Pyodide workspace with bundled scientific packages and plots. | Flutter; Android development APKs. iOS/desktop runners need platform checks. |
-| [Vitrine](https://github.com/etabli-dev/etabli-vitrine) | Import and run R Shiny source or shinylive bundles, including offline examples. | Flutter; Android development APKs. iOS/desktop runners need platform checks. |
+| [Atelier](https://github.com/etabli-dev/etabli-atelier) | Local R/WebR and Python/Pyodide workspace with bundled scientific packages and plots. | Flutter for Android and iOS; unsigned iOS simulator and device Release builds verified. Generated desktop runners are not supported release targets. |
+| [Vitrine](https://github.com/etabli-dev/etabli-vitrine) | Import and run R Shiny source or shinylive bundles, including offline examples. | Flutter for Android and iOS; unsigned iOS simulator and device Release builds verified. Generated desktop runners are not supported release targets. |
 | [Courrier](https://github.com/etabli-dev/etabli-courrier) | Local mail, calendar, contacts, tasks, reminders, notes and feeds; incoming IMAP and Nextcloud synchronization. | Flutter; production and demo paths are distinct. Provider/device validation remains necessary. |
-| [Recueil](https://github.com/etabli-dev/etabli-recueil) | Local research-library ingestion, storage, verification and reading workflows. | TypeScript CLI, server and web application; see its setup and integration gates. |
+| [Recueil](https://github.com/etabli-dev/etabli-recueil) | Local research-library ingestion, storage, verification and reading workflows. | TypeScript CLI, server and web application, plus a Tauri desktop client for a configured server; see its setup and integration gates. |
 | [Doc](https://github.com/etabli-dev/etabli-doc) | Browse/search Paperless-ngx documents; iOS also downloads previews. | Native Android and iOS clients; own HTTPS server and token required. |
 | [Table](https://github.com/etabli-dev/etabli-table) | Browse tables and rows in a configured SeaTable base. | Native Android and iOS clients; viewing UI with bounded result windows. |
 | [Projet](https://github.com/etabli-dev/etabli-projet) | Browse OpenProject projects/work packages; iOS includes subject editing. | Native Android and iOS clients; own HTTPS server and token required. |
-| [Nuage](https://github.com/etabli-dev/etabli-nuage) | Check URLs from CSV files and retain/export results; optional WebDAV CSV/log exchange. | Native Android and iOS. General file management, contacts and calendar are future work. |
-| [Focus](https://github.com/etabli-dev/etabli-focus) | Category-based focus timers, weekly targets and local session statistics. | Native Android and iOS; notification and upgrade behavior needs device acceptance. |
-| [Plume](https://github.com/etabli-dev/etabli-plume) | Search, copy and favourite bundled LaTeX commands and snippets. | Native Android and iOS; local dictionary and preferences. |
-| [BranchXO](https://github.com/etabli-dev/etabli-branchxo) | Tic-tac-toe with replay, alternate branches, AI and probability views. | React Native/Expo; Android and browser checks, iOS source. |
-| [Lattttice](https://github.com/etabli-dev/etabli-lattttice) | Four-dimensional tic-tac-toe on a 4×4×4×4 board. | React Native/Expo; Android and browser checks, iOS source. |
+| [Nuage](https://github.com/etabli-dev/etabli-nuage) | Check URLs from CSV files and retain/export results; optional WebDAV CSV/log exchange. | Native Android/iOS and Compose Desktop. General file management, contacts and calendar are future work. |
+| [Focus](https://github.com/etabli-dev/etabli-focus) | Focus timers, weekly targets and session statistics; optional FlowSavvy task progress and calendar reminders. | Native Android/iOS and Compose Desktop; CalDAV calendars directly on Android/desktop and through system calendars on iOS. Notification and upgrade behavior needs device acceptance. |
+| [Plume](https://github.com/etabli-dev/etabli-plume) | Search, copy and favourite bundled LaTeX commands and snippets. | Native Android/iOS and Compose Desktop; local dictionary and preferences. |
+| [BranchXO](https://github.com/etabli-dev/etabli-branchxo) | Tic-tac-toe with replay, alternate branches, AI and probability views. | React Native/Expo mobile and browser app, plus Tauri desktop; see the repository for platform-specific build and device evidence. |
+| [Lattttice](https://github.com/etabli-dev/etabli-lattttice) | Four-dimensional tic-tac-toe on a 4×4×4×4 board. | React Native/Expo mobile and browser app, plus Tauri desktop; see the repository for platform-specific build and device evidence. |
 
 ## Privacy and offline use
 
