@@ -29,7 +29,7 @@ Games and bundled examples can operate locally. Imported scripts, Shiny applicat
 
 ## Development and releases
 
-Android development downloads, where available, are on each repository's Releases page. They are not store-approved production releases. App Store and Google Play publication are not established by this profile; F-Droid is not planned, as it requires a free licence. Follow each project's README for the current source build and its audit/refinement record for observed checks and remaining gates.
+Android development downloads, where available, are on each repository's Releases page. They are not store-approved production releases. App Store, Google Play and F-Droid publication are not established by this profile. Follow each project's README for the current source build and its audit/refinement record for observed checks and remaining gates.
 
 The apps share the Coder visual vocabulary: a green accent, restrained borders and monospaced code/value displays. Platform behavior and accessibility should be evaluated in each app; a shared design does not imply identical functionality.
 
@@ -41,4 +41,4 @@ Start with a project's README; it links to its guides, source, tests and release
 
 ## Licensing
 
-From 22 November 2026, all Établi projects are proprietary: all rights reserved. Each repository's LICENSE holds the notice; the source is visible but may not be used, copied, modified or distributed without written permission. Third-party components keep their own licences; Atelier and Vitrine document their WebR/GPL and other runtime components in THIRD_PARTY.md. Versions published earlier remain available under their earlier open-source licences. Licensing enquiries: etabli.dev@outlook.com. © 2026 R. Heller.
+From 22 November 2026 the apps (Atelier, Vitrine, Courrier, Doc, Table, Projet, Nuage, Focus, Plume, BranchXO and Lattttice) are dual-licensed: GNU AGPL-3.0-only, or a commercial licence from the copyright holder. Recueil, this profile and the website are proprietary, all rights reserved. Each repository's LICENSE holds its terms. Third-party components keep their own licences; Atelier and Vitrine document their WebR/GPL and other runtime components in THIRD_PARTY.md. Versions published earlier remain available under their earlier licences. Licensing enquiries: etabli.dev@outlook.com. © 2026 R. Heller.
