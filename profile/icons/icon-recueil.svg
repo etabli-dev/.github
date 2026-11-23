@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024" role="img" aria-label="Recueil">
+  <!-- Établi Recueil icon. Coder design system: #28A745 tile, white glyph, one-line glyph ≈70% of the tile, stroke 44 @1024 (aligned to the suite icon, Nov 2026). -->
+  <rect width="1024" height="1024" fill="#28A745"/>
+  <g transform="translate(512,512) scale(1.25912) translate(-520.00,-465.00)">
+  <g stroke-width="34.945" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M 260 500 V 276 A 36 36 0 0 1 296 240 H 624 A 36 36 0 0 1 660 276 V 350 H 744 A 36 36 0 0 1 780 386 V 654 A 36 36 0 0 1 744 690 H 396 A 36 36 0 0 1 360 654 V 386 A 36 36 0 0 1 396 350 H 660" fill="none" stroke="#FFFFFF"/>
+    <line x1="430" y1="470" x2="700" y2="470" fill="none" stroke="#FFFFFF"/>
+    <line x1="430" y1="570" x2="610" y2="570" fill="none" stroke="#FFFFFF"/>
+  </g>
+  </g>
+</svg>
