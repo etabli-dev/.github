@@ -41,4 +41,4 @@ Start with a project's README; it links to its guides, source, tests and release
 
 ## Licensing
 
-Consult each repository's LICENSE and NOTICE. Application code and bundled runtimes can have different licenses; Atelier and Vitrine document their WebR/GPL and other runtime components in THIRD_PARTY.md. © 2026 R. Heller.
+From 22 November 2026 the apps (Atelier, Vitrine, Courrier, Doc, Table, Projet, Nuage, Focus, Plume, BranchXO and Lattttice) are dual-licensed: GNU AGPL-3.0-only, or a commercial licence from the copyright holder. Recueil, this profile and the website are proprietary, all rights reserved. Each repository's LICENSE holds its terms. Third-party components keep their own licences; Atelier and Vitrine document their WebR/GPL and other runtime components in THIRD_PARTY.md. Versions published earlier remain available under their earlier licences. Licensing enquiries: etabli.dev@outlook.com. © 2026 R. Heller.
